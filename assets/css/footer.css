@@ -21,8 +21,8 @@
 @media (max-width:959px){
   .footer_block{flex-direction: column;margin-bottom: 2em;}
   .footer_nav{margin-bottom: 2em;}
-  .footer_brand{padding: 2em 7% 0;margin-bottom: 2em;}
-  .footer_block{padding: 0 7%;}
+  .footer_brand{padding: 2em 7% 0;margin-bottom: 2em;width: 86%;}
+  .footer_block{padding: 0 7%;width: 86%;}
   .footer_bot{min-height: 3em;}
   .footer_social a{margin-right: 0.7em;}
 }
