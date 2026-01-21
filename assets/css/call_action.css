@@ -2,7 +2,7 @@
   ESTILOS GENERALES  */
 .call_action{background-color: var(--bg-2);}
 .call_action .call_action_card{background-color: var(--paper);border-radius: 15px;display: flex;text-align: center;}
-.call_action_info{display: flex;flex-direction: column; align-items: center;justify-content: center;}
+.call_action_info{display: flex;flex-direction: column; align-items: center;justify-content: center;padding-left: 2em;}
 .call_action_info h2{margin: 0;font-size: 200%;color: var(--brand-dark);}
 /* =========================================================
   RESPONSIVE: MÓVILES / TABLET (≤ 959px) */

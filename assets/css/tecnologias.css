@@ -9,17 +9,18 @@
     object-fit: cover; /* rellena todo sin deformar */
     border-radius: 2px;
 }
-.tecnologias_lista li{position: relative; width: 10em;}
 .tecnologias_lista .tecnologias_lista_title{position: absolute;bottom: 0;z-index: 2;padding: 0.5em 5%;width: 90%;}
 .tecnologias_lista_title h3{background-color: rgb(255, 255, 255, 70%);margin: 0;padding: 0.2em;border-radius: 2px;}
 /* =========================================================
   RESPONSIVE: MÓVILES / TABLET (≤ 959px) */
 @media (max-width:959px){
+.tecnologias_lista li{position: relative; width: 40%;}
 }
 
 /* =========================================================
   RESPONSIVE: ESCRITORIO (≥ 960px) */
 @media (min-width:960px){
 .tecnologias_lista .card_1{margin-left: 20%;}
-.tecnologias_lista .card_3{margin-right: 20%;;}
+.tecnologias_lista .card_3{margin-right: 20%;}
+.tecnologias_lista li{position: relative; width: 10em;}
 }
