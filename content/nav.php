@@ -7,6 +7,7 @@
             <ul id="nav_principal">
                 <li><a href="./"><span>Inicio</span></a></li>
                 <li><a href="#servicios"><span>Servicios</span></a></li>
+                <li><a href="#about"><span>Conoce a ON!</span></a></li>
                 <li><a href="#ventajas"><span>Ventajas</span></a></li>
             </ul>
         </nav>

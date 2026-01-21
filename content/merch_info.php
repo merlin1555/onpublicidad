@@ -7,7 +7,7 @@
                 </div>
 
                 <div class="merchinfocard_header">
-                    <h3>Impresión Tradicional y Versátil con Resultados de Alta Calidad</h3>
+                    <h3>Serigrafía: Impresión Tradicional y Versátil con Resultados de Alta Calidad</h3>
                     <button class="js-dropdown-toggle" type="button" aria-expanded="false"><i class="fa-solid fa-caret-down"></i></button>
                     <p>Técnica confiable para impresiones durables y de alto impacto. Ideal para producciones masivas y merchandising.</p>
                 </div>
@@ -25,7 +25,7 @@
                 </div>
 
                 <div class="merchinfocard_header">
-                    <h3>Impresión de Alta Resolución en Superficies Rígidas y Detalladas</h3>
+                    <h3>DTV UV: Impresión de Alta Resolución en Superficies Rígidas y Detalladas</h3>
                     <button class="js-dropdown-toggle" type="button" aria-expanded="false"><i class="fa-solid fa-caret-down"></i></button>
                     <p>Tecnología innovadora para impresiones en relieve y a todo color. Ideal para superficies rígidas y productos personalizados.</p>
                 </div>
@@ -79,7 +79,7 @@
                 </div>
 
                 <div class="merchinfocard_header">
-                    <h3>Cama Plana: Tecnología de Impresión Directa para Materiales Rígidos con Precisión y Durabilidad</h3>
+                    <h3>Cama Plana: Impresión Directa en Materiales Rígidos con Precisión y Durabilidad</h3>
                     <button class="js-dropdown-toggle" type="button" aria-expanded="false"><i class="fa-solid fa-caret-down"></i></button>
                     <p>Impresión de alta resolución en materiales rígidos. Ideal para señalética y material publicitario.</p>
                 </div>
@@ -97,7 +97,7 @@
                 </div>
 
                 <div class="merchinfocard_header">
-                    <h3>Marcado de Alta Precisión para Personalización y Señalética</h3>
+                    <h3>Grabado Láser: Marcado de Alta Precisión para Personalización y Señalética</h3>
                     <button class="js-dropdown-toggle" type="button" aria-expanded="false"><i class="fa-solid fa-caret-down"></i></button>
                     <p>Personalización precisa y permanente en productos corporativos. Ideal para artículos premium y de alta calidad.</p>
                 </div>
@@ -108,10 +108,6 @@
                     <p>A diferencia de la impresión digital o el DTF UV, el grabado láser no añade una capa de tinta sobre el material, sino que modifica directamente su superficie, garantizando que el diseño no se desgaste con el tiempo. Es perfecto para productos de alta gama donde se busca un resultado preciso, elegante y duradero.</p>
                 </div>
             </li>
-
-
-
-        <!-- repite igual para las otras cards -->
         </ul>
     </div>
 </section>

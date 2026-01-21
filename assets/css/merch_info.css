@@ -35,6 +35,8 @@
   RESPONSIVE: ESCRITORIO (≥ 960px) */
 @media (min-width:960px){
   .merchinfo_card{width: 30%;}
+  .merchinfocard_header h3{min-height: 3.5em;margin-bottom: 0;}
+  .merchinfocard_header p{margin-top: 0.5em;}
 }
 /* Estado colapsado por defecto */
 .merchinfocard_dropdown {
