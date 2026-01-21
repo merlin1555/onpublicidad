@@ -1,0 +1,53 @@
+/* =========================================================
+  TOKENS / THEME
+  ========================================================= */
+:root{
+  /* Fondo General */
+  --bg:linear-gradient(180deg, #343a40 0%, #061225 100%);;
+  --bg-2: #E8E8E8;
+  --bg-3: #F4F4EA;
+  --paper:#fff;
+  --coal: #141414;
+  --shadow:0 10px 30px rgba(15,43,58,.08);
+
+  /* Fuentes */
+  --ink:#0F2B3A;
+  --fuente:#1B1D1D;
+  --muted:#495A64;
+  
+  /* Marca */
+  --brand-light: #D41B50;
+  --brand: #EC6527;
+  --brand-dark: #061225;
+
+  /* Diseño */
+  --golden-light: #FBD784;
+  --sky: #4F9ED2;
+  --muted-overlay: rgb(73, 90, 100, 40%);
+}
+/* =========================================================
+  ESTILOS GENERALES  */
+html{scroll-behavior:smooth;}
+body,
+footer{margin: 0;padding: 0;}
+.muted{color: var(--muted);}
+.head_info{color: var(--brand);font-weight: bold;text-transform: uppercase;}
+.section_header{text-align: center;}
+.section_header span{color: var(--brand);}
+.section_header h2{color: var(--brand-dark);font-weight: bold;}
+/* =========================================================
+  RESPONSIVE: MÓVILES / TABLET (≤ 959px) */
+@media (max-width:959px){
+  .elemento_escritorio{display: none !important;}
+  .section_container{padding: 3em 7%;}
+  .section_header{padding: 0 5%;}
+}
+
+/* =========================================================
+  RESPONSIVE: ESCRITORIO (≥ 960px) */
+@media (min-width:960px){
+  .elemento_movil{display: none !important;}
+  .section_container{padding: 5em 15% 4em;}
+  .section_header{padding: 0 20%;}
+  .section_header h2{font-size: 200%;}
+}

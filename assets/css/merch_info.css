@@ -1,0 +1,51 @@
+/* =========================================================
+  ESTILOS GENERALES  */
+.merch_info{background-color: var(--coal);color: var(--paper);}
+.merchinfocard_header{display: flex;flex-wrap: wrap;justify-content: space-between;}
+.merchinfo_list {list-style: none;padding: 0;margin: 0;display: flex;flex-wrap: wrap;justify-content: center;gap: 1em;}
+.merchinfocard_img{width: 100%;}
+.merchinfocard_dropdown{width: 88%;padding: 0 6%}
+.merchinfocard_dropdown h3{margin: 0.3em 0 0.5em;}
+.merchinfocard_dropdown p{margin-top: 0;}
+.merchinfocard_header{width: 94%;}
+.merchinfo_card{
+  background-color: var(--paper);
+  color: var(--fuente);
+  border-radius: 4px;
+  font-size: 70%;
+  height: fit-content;
+  background-color: var(--bg-2);
+}
+.merchinfo_card h3{color: var(--brand-dark);}
+.merchinfo_card p{color: var(--muted);}
+.merchinfo_card span{color: var(--brand);}
+.merchinfo_card button{color: var(--brand);background-color: transparent;border: none;cursor: pointer;}
+.merchinfo_card button i{font-size: 150%;}
+.merchinfocard_img img{width: 100%;object-fit: cover;border-radius: 4px 4px 0 0;}
+.merchinfocard_header{padding: 1em 3%;}
+.merchinfocard_header h3{max-width: 85%;margin: 0;}
+/* =========================================================
+  RESPONSIVE: MÓVILES / TABLET (≤ 959px) */
+@media (max-width:959px){
+  .merchinfo_card{width: 100%;}
+  .merchinfo_list{padding: 0 10%;}
+}
+
+/* =========================================================
+  RESPONSIVE: ESCRITORIO (≥ 960px) */
+@media (min-width:960px){
+  .merchinfo_card{width: 30%;}
+}
+/* Estado colapsado por defecto */
+.merchinfocard_dropdown {
+  height: 0;
+  overflow: hidden;
+  transition: height 250ms ease;
+}
+
+/* Si prefieres evitar animación cuando el usuario tiene reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .merchinfocard_dropdown {
+    transition: none;
+  }
+}

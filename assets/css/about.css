@@ -1,0 +1,19 @@
+/* =========================================================
+  ESTILOS GENERALES - ABOUT  */
+.about{background-color: var(--bg-2);}
+.about .section_container{text-align: center;}
+.about_list{list-style: none;display: flex;justify-content: space-around;padding: 0;margin: 0;}
+.about_list li{display: flex;flex-direction: column;align-items: center;justify-content: center;padding: 2em;}
+.about_list_icon{font-size: 250%;color: var(--brand);}
+.about_list h3{margin-bottom: 0.5em;color: var(--brand-dark);font-weight: bold;}
+.about_list p{margin: 0 0 0.5em;}
+/* =========================================================
+  RESPONSIVE: MÓVILES / TABLET (≤ 959px) */
+@media (max-width:959px){
+    .about_list{flex-direction: column;}
+}
+
+/* =========================================================
+  RESPONSIVE: ESCRITORIO (≥ 960px) */
+@media (min-width:960px){
+}

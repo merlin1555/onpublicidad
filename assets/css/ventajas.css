@@ -1,0 +1,23 @@
+/* =========================================================
+  ESTILOS GENERALES  */
+.ventajas{background: var(--bg-2);}
+.ventajas_block{display: flex;}
+.ventajas_info{display: flex;list-style: none;padding: 0;margin: 0;}
+.ventajas_info .ventajas_card h3{margin-bottom: 0.3em;display: flex;align-items: center;}
+.ventajas_info .ventajas_card i{font-size: 180%; color: var(--brand-dark);margin-right: 0.2em;width: 1em;height: 1em;}
+.ventajas_info .ventajas_card p{margin: 0 0 0 3em;font-size: 80%;}
+.ventajas_visor{display: flex;align-items: center;justify-content: center;}
+/* =========================================================
+  RESPONSIVE: MÓVILES / TABLET (≤ 959px) */
+@media (max-width:959px){
+  .ventajas_block{flex-direction: column;}
+  .ventajas_info{gap: 2em;}
+}
+
+/* =========================================================
+  RESPONSIVE: ESCRITORIO (≥ 960px) */
+@media (min-width:960px){
+  .ventajas_block{justify-content: space-around;}
+  .ventajas_visor{width: 50%;}
+  .ventajas_info{flex-direction: column;justify-content: center;gap: 1em;}
+}

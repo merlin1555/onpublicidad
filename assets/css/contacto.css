@@ -1,0 +1,50 @@
+/* =========================================================
+  ESTILOS GENERALES  */
+.contacto{background-color: var(--bg-2);}
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#contacto label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #0b1d26;
+}
+#contacto input,
+#contacto textarea {
+    width: 100%;
+    padding: 12px 14px;
+
+    font-size: 0.95rem;
+    font-family: inherit;
+    color: #0b1d26;
+
+    border: 1px solid #d6d6d6;
+    border-radius: 6px;
+    background-color: #ffffff;
+
+    box-sizing: border-box;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+#contacto input:focus,
+#contacto textarea:focus {
+    outline: none;
+    border-color: #e11d48; /* magenta ON! */
+    box-shadow: 0 0 0 2px rgba(225, 29, 72, 0.15);
+}
+#contacto textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+/* =========================================================
+  RESPONSIVE: MÓVILES / TABLET (≤ 959px) */
+@media (max-width:959px){
+}
+
+/* =========================================================
+  RESPONSIVE: ESCRITORIO (≥ 960px) */
+@media (min-width:960px){
+}

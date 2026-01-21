@@ -1,0 +1,20 @@
+/* =========================================================
+  ESTILOS GENERALES - FOOTER  */
+.site-footer{background-color: var(--coal);color: var(--paper);}
+.footer_brand{width: 100%;}
+.footer_brand_img{width: 8em;}
+.footer_block{display: flex;width: 100%;justify-content: space-between;align-items: start;}
+.footer_block ul{list-style: none;padding: 0;margin: 0;}
+.footer_block h5{margin-top: 0;}
+.footer_bot{display: flex;flex-direction: column; align-items: center;}
+/* =========================================================
+  RESPONSIVE: MÓVILES / TABLET (≤ 959px) */
+@media (max-width:959px){
+  .site-footer{padding: 2em 10%;}
+}
+
+/* =========================================================
+  RESPONSIVE: ESCRITORIO (≥ 960px) */
+@media (min-width:960px){
+  .site-footer{padding: 2em 15%;}
+}
