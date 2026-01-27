@@ -3,23 +3,36 @@
 .site_nav{position: absolute;top: 0;width: 100%;}
 .nav_container{display: flex;justify-content: space-between;align-items: center;}
 .nav_brand img{width: 8em;}
-#nav_principal{display: flex;list-style: none;padding: 0;margin: 0;}
-#nav_principal li{margin-right: 1em;}
-#nav_principal a{text-decoration: none;}
+.nav_principal{display: flex;list-style: none;padding: 0;margin: 0;}
+.nav_principal li{margin-right: 1em;}
+.nav_principal a{text-decoration: none;}
 #menu_principal{width: 100%;}
-#nav_principal a{color: var(--paper);font-weight: bolder;transition: all 0.25s;}
-#nav_principal a:hover{color: var(--brand);}
-#nav_principal span{box-shadow: var(--shadow);}
+.nav_principal a{color: var(--paper);font-weight: bolder;transition: all 0.25s;}
+.nav_principal a:hover{color: var(--brand);}
+.nav_principal span{box-shadow: var(--shadow);}
+/* El clon parte oculto "arriba" */
+.site_nav--clone{
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 9999;
+  transform: translateY(-110%);
+  transition: transform 240ms ease;
+  will-change: transform;
+}
+/* Cuando se activa, baja y ocupa el lugar */
+.site_nav--clone.is-visible{transform: translateY(0);}
+#site_nav_clone{background-color: rgb(232 232 232 / 90%);box-shadow: 0 12px 25px rgba(0,0,0,0.20);}
+.nav_principal--clone a{color: var(--fuente);}
 /* =========================================================
   RESPONSIVE: MÓVILES / TABLET (≤ 959px) */
 @media (max-width:959px){
-  #nav_principal{margin-top: 1em;}
+  .nav_principal{margin-top: 1em;}
   .nav_container{padding: 1em 5%;flex-wrap: wrap;}
 }
 
 /* =========================================================
   RESPONSIVE: ESCRITORIO (≥ 960px) */
 @media (min-width:960px){
-  #nav_principal{justify-content: end;}
+  .nav_principal{justify-content: end;}
   .nav_container{padding: 1em 5%;}
 }

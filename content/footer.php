@@ -12,7 +12,7 @@
 				<div class="footer_nav">
 					<h5>Menú</h5>
 					<ul>
-						<li><a href="./">Inicio</a></li>
+						<li><a href="#inicio">Inicio</a></li>
 						<li><a href="#servicios">Servicios</a></li>
 						<li><a href="#about">Conoce a ON!</a></li>
 						<li><a href="#ventajas">Ventajas</a></li>
@@ -34,9 +34,9 @@
 				</div>            
 			</div>
         </div>
-        				<!-- Contacto / Redes -->
+        <!-- Contacto / Redes -->
         <div class="footer_contact elemento_escritorio">
-            <h5>Contacto</h5>
+            <h4>Contacto</h4>
             <p>¿Tienes un proyecto en mente?</p>
             <a href="mailto:contacto@orellanallanquileo.cl" class="footer_email">contacto@onpublicidad.cl</a>
 
@@ -47,13 +47,34 @@
             </div>
         </div> 
     </div>
+    <div class="footer_modales">
+        <hr>
+        <small>
+            <ul>
+                <li><button class="js-open-modal" data-modal="modal-faqs" type="button">Preguntas Frecuentes</button></li>
+                <li> · </li>
+                <li><button class="js-open-modal" data-modal="modal-condiciones" type="button">Términos y condiciones</button></li>
+            </ul>
+        </small>
+    </div>
     <!-- Créditos -->
     <div class="footer_bot">
         <p>© 2026 On Publicidad Chile. Todos los derechos reservados.</p>
     </div>
 </footer>
 
+<!-- MODAL: TERMINOS Y CONDICIONES -->
+    <?php include_once("modal-condiciones.php");?>
+
+<!-- MODAL: PREGUNTAS FRECUENTES -->
+    <?php include_once("modal-faqs.php");?>
+
+<!-- MODAL: CONTACTO -->
+    <?php include_once("modal-contacto.php");?>
+
 <script src="assets/js/scripts.js" defer></script>
 <script src="assets/js/merch_info.js" defer></script>
+<script src="assets/js/slider-modelos.js" defer></script>
+<script src="assets/js/site_nav_clone.js" defer></script>
 </body>
 </html>

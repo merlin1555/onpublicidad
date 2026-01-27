@@ -1,10 +1,10 @@
-<section class="call_action">
+<section class="call_action" id="contacto">
     <div class="section_container">
         <div class="call_action_card">
             <div class="call_action_info">
                 <h2>¿Tienes un Pedido Especial?</h2>
                 <p>¡Contáctanos, cuéntanos tu proyecto y hagámoslo realidad!</p>
-                <a class="btn_ btn__primary" href="#"><span>Contacto</span></a>
+                <button class="js-open-modal btn_ btn__primary" data-modal="modal-contacto" type="button"><span>Contacto</span></button>
             </div>
             <div class="call_action_visor">
                 <model-viewer

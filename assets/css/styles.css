@@ -47,7 +47,7 @@ footer{margin: 0;padding: 0;}
   RESPONSIVE: ESCRITORIO (≥ 960px) */
 @media (min-width:960px){
   .elemento_movil{display: none !important;}
-  .section_container{padding: 5em 15% 4em;}
+  .section_container{padding: 8em 15% 0;}
   .section_header{padding: 0 20%;}
   .section_header h2{font-size: 200%;}
 }

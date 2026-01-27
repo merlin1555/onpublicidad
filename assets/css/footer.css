@@ -3,6 +3,7 @@
 .site-footer{background-color: var(--coal);color: var(--paper);}
 .site-footer a{color: var(--brand);}
 .site-footer a:hover{color: var(--brand);}
+.footer_social{display: none;}
 .footer_nav a,
 .footer_social a{text-decoration: none;}
 .footer_social{padding-top: 0.7em;}
@@ -16,6 +17,9 @@
 .footer_block p{margin-top: 0;margin-bottom: 0.5em;}
 .footer_bot{background-color: black;padding: 0.7em 7%;font-size: 90%;}
 .footer_bot p{margin: 0;}
+.footer_modales{padding: 1em;}
+.footer_modales button{background-color: transparent; border: none;color: var(--paper);cursor: pointer;}
+.footer_modales ul{list-style: none;display: flex;padding: 0.5em 0 0;margin: 0;justify-content: center;align-items: center;gap: 1em;}
 /* =========================================================
   RESPONSIVE: MÓVILES / TABLET (≤ 959px) */
 @media (max-width:959px){
@@ -32,7 +36,8 @@
   .footer_container{padding: 2em 15%;display: flex;justify-content: space-between;}
   .footer_bot{text-align: center;}
   .footer_nav ul{display: flex;gap: 1em;}
-  .footer_contact{text-align: end;}
-  .footer_contact h5{margin-bottom: 0.5em;}
+  .footer_contact{text-align: end;display: flex;flex-direction: column;justify-content: center;}
+  .footer_contact h4{margin-bottom: 0.5em;}
+  .footer_contact p{margin: 0 0 0.5em;}
   .footer_social a{margin-left: 0.7em;}
 }

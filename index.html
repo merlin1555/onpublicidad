@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="es">
 <head>
@@ -25,41 +26,57 @@
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/buttons.css">
     <link rel="stylesheet" href="assets/css/fontstyles.css">
+    <link rel="stylesheet" href="assets/css/formularios-modal.css">
 
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 <body>
 <header>
-</header>
-<main>
-<section class="hero" id="hero">
-<div class="site_nav">
-    <div class="nav_container">
-        <a class="nav_brand" href="./"><img src="assets/img/logo/ON-LOGO-BLANCO.png" alt=""></a>
-        <div class="elemento_movil"><a class="btn_ btn__primary" href="#contacto"><span>Contacto</span></a></div>
-        <nav role="navigation" aria-label="Menú principal" id="menu_principal">
-            <ul id="nav_principal">
-                <li><a href="./"><span>Inicio</span></a></li>
-                <li><a href="#servicios"><span>Servicios</span></a></li>
-                <li><a href="#ventajas"><span>Ventajas</span></a></li>
-            </ul>
-        </nav>
-        <div class="elemento_escritorio"><a class="btn_ btn__primary reveal-up" href="#contacto"><span>Contacto</span></a></div>        
-    </div>
+</header><main id="inicio">
+	<section class="hero" id="hero">
+    <!-- MENÚ 1 (el original fijo arriba) -->
+<div class="site_nav" id="site_nav_main">
+  <div class="nav_container">
+    <a class="nav_brand" href="./"><img src="assets/img/logo/ON-LOGO-BLANCO.png" alt=""></a>
+    <div class="elemento_movil"><a class="btn_ btn__primary" href="#contacto"><span>Contacto</span></a></div>
+    <nav role="navigation" aria-label="Menú principal" id="menu_principal">
+      <ul class="nav_principal">
+        <li><a href="#inicio"><span>Inicio</span></a></li>
+        <li><a href="#servicios"><span>Servicios</span></a></li>
+        <li><a href="#ventajas"><span>Ventajas</span></a></li>
+      </ul>
+    </nav>
+    <div class="elemento_escritorio"><a class="btn_ btn__primary reveal-up" href="#contacto"><span>Contacto</span></a></div>
+  </div>
+</div>
+
+<!-- MENÚ 2 (clon que entra desde arriba) -->
+<div class="site_nav site_nav--clone" id="site_nav_clone" aria-hidden="true">
+  <div class="nav_container">
+    <a class="nav_brand" href="./"><img src="assets/img/logo/ON-LOGOV2.png" alt=""></a>
+    <div class="elemento_movil"><a class="btn_ btn__primary" href="#contacto"><span>Contacto</span></a></div>
+    <nav role="navigation" aria-label="Menú principal (clon)">
+      <ul class="nav_principal nav_principal--clone">
+        <li><a href="#inicio"><span>Inicio</span></a></li>
+        <li><a href="#servicios"><span>Servicios</span></a></li>
+        <li><a href="#ventajas"><span>Ventajas</span></a></li>
+      </ul>
+    </nav>
+    <div class="elemento_escritorio"><a class="btn_ btn__primary reveal-up" href="#contacto"><span>Contacto</span></a></div>
+  </div>
 </div>
     <div class="section_container">
         <div class="hero_info">
             <h1>ON! Publicidad y Marketing</h1>
             <h3>Trabajos 100% personalizados</h3>
             <p>Impresión de calidad, regalos personalizados, eventos excepcionales y estrategias digitales diseñadas para impactar.</p>
-            <a href="#ventajas" class="btn_ btn__primary"><span>Ver Detalles ></span></a>
+            <a href="#ventajas" class="btn_ btn__primary"><span>Ver Detalles <i class="fa-solid fa-angle-right"></i></span></a>
         </div>
         <div class="hero_img">
             <img src="assets/img/libreria/banner_merch.png" alt="">
         </div>
     </div>
-</section>
-<section class="about" id="about">
+</section>		<section class="about" id="about">
     <div class="section_container">
         <div class="section_header">
         <span class="head_info">Conoce a ON! Publicidad y Marketing</span>
@@ -87,44 +104,7 @@
             </li>
         </ul>
     </div>
-</section>
-<section class="tecnologias" id="servicios">
-    <div class="section_container">
-        <div class="section_header">
-            <span class="head_info">Regalos presonalizados para empresas</span>
-            <h2>Regalos Corporativos 100% personalizados</h2>
-            <p class="muted">Descubre nuestras Tecnologías de impresión: serigrafía, grabado láser, sublimación y más.</p>            
-        </div>
-
-        <ul class="tecnologias_lista">
-            <li class="card_1">
-                <img src="assets/img/tecnologias/serigrafia300x300.png" alt="">
-                <div class="tecnologias_lista_title"><h3>Serigrafía</h3></div>
-            </li>
-            <li>
-                <img src="assets/img/tecnologias/dtfuv300x300.png" alt="">
-                <div class="tecnologias_lista_title"><h3>DTV UV</h3></div>
-            </li>
-            <li class="card_3">
-                <img src="assets/img/tecnologias/dtftextil300x300.png" alt="">
-                <div class="tecnologias_lista_title"><h3>DTF Textil</h3></div>
-            </li>
-            <li>
-                <img src="assets/img/tecnologias/impresion3d300x300.png" alt="">
-                <div class="tecnologias_lista_title"><h3>Impresión 3D</h3></div>
-            </li>
-            <li>
-                <img src="assets/img/tecnologias/camaplana300x300.png" alt="">
-                <div class="tecnologias_lista_title"><h3>Cama Plana</h3></div>
-            </li>
-            <li>
-                <img src="assets/img/tecnologias/grabadolaser300x300.png" alt="">
-                <div class="tecnologias_lista_title"><h3>Grabado Láser</h3></div>
-            </li>
-        </ul>
-    </div>
-</section>
-<section class="ventajas" id="ventajas">
+</section>		<section class="ventajas" id="ventajas">
     <div class="section_container">
         <div class="section_header">
             <span class="head_info">ventajas</span>
@@ -132,7 +112,7 @@
             <p class="muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ex illo omnis? Doloremque reiciendis, suscipit, fuga accusamus vero, voluptas aliquam vel magni quibusdam quo possimus. Sunt culpa delectus ratione ad?</p>
         </div>
         <div class="ventajas_block">
-            <ul class="ventajas_info">
+            <ul class="ventajas_info ventajas_info-1">
                 <li class="ventajas_card">
                     <h3><i class="fa-solid fa-bell"></i> Lorem ipsum dolor</h3>
                     <p class="muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae id a laborum alias quos, suscipit debitis quae.</p>
@@ -143,20 +123,23 @@
                 </li>
             </ul>
             <div class="ventajas_visor">
-                <model-viewer
-                    id="visor-ventajas"
-                    src="assets/3d/togepi_smash_bros_ultimate.glb"
-                    ios-src="assets/3d/togepi_smash_bros_ultimate.usdz"
-                    disable-zoom
-                    camera-controls
-                    autoplay
-                    animation-loop
-                    camera-orbit="25deg 75deg 150%"
-                    style="width:100%;height:40vh">
-                <button slot="ar-button" aria-hidden="true" style="display:none"></button>
-                </model-viewer>
+            <button class="visor_btn visor_prev" type="button" aria-label="Modelo anterior"><i class="fa-solid fa-angle-left"></i></button>
+
+            <model-viewer
+            id="visor-ventajas"
+            src="assets/3d/togepi_smash_bros_ultimate.glb"
+            ios-src="assets/3d/togepi_smash_bros_ultimate.usdz"
+            disable-zoom
+            camera-controls
+            autoplay
+            animation-loop
+            style="width:100%;height:40vh">
+            <button slot="ar-button" aria-hidden="true" style="display:none"></button>
+            </model-viewer>
+
+            <button class="visor_btn visor_next" type="button" aria-label="Siguiente modelo"><i class="fa-solid fa-angle-right"></i></button>
             </div>
-            <ul class="ventajas_info">
+            <ul class="ventajas_info ventajas_info-2">
                 <li class="ventajas_card">
                     <h3><i class="fa-solid fa-comment"></i> Lorem ipsum dolor</h3>
                     <p class="muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae id a laborum alias quos, suscipit debitis quae.</p>
@@ -168,14 +151,13 @@
             </ul>
         </div>
     </div>
-</section>
-<section class="call_action">
+</section>	<section class="call_action" id="contacto">
     <div class="section_container">
         <div class="call_action_card">
             <div class="call_action_info">
                 <h2>¿Tienes un Pedido Especial?</h2>
                 <p>¡Contáctanos, cuéntanos tu proyecto y hagámoslo realidad!</p>
-                <a class="btn_ btn__primary" href="#"><span>Contacto</span></a>
+                <button class="js-open-modal btn_ btn__primary" data-modal="modal-contacto" type="button"><span>Contacto</span></button>
             </div>
             <div class="call_action_visor">
                 <model-viewer
@@ -198,145 +180,7 @@
             </div>
         </div>
     </div>
-</section>
-<section class="merch_info" id="merch_info">
-    <div class="section_container">
-        <ul class="merchinfo_list">
-            <li class="merchinfo_card">
-                <div class="merchinfocard_img">
-                    <img src="assets/img/info/serigrafia 1000x700.png" alt="">
-                </div>
-
-                <div class="merchinfocard_header">
-                    <h3>Serigrafía: Impresión Tradicional y Versátil con Resultados de Alta Calidad</h3>
-                    <button class="js-dropdown-toggle" type="button" aria-expanded="false"><i class="fa-solid fa-caret-down"></i></button>
-                    <p>Técnica confiable para impresiones durables y de alto impacto. Ideal para producciones masivas y merchandising.</p>
-                </div>
-
-                <div class="merchinfocard_dropdown" aria-hidden="true">
-                    <span>¿Cómo lo hacemos?</span>
-                    <h3>Técnica que utiliza plantillas y tintas para transferir diseños con precisión.</h3>
-                    <p>La serigrafía es una técnica de impresión ideal para la personalización de merchandising corporativo, permitiendo imprimir logotipos y diseños en textiles, bolsas reutilizables, libretas y más. Su alta resistencia al desgaste y los lavados la convierte en una excelente opción para productos promocionales de larga duración.</p>
-                </div>
-            </li>
-
-            <li class="merchinfo_card">
-                <div class="merchinfocard_img">
-                    <img src="assets/img/info/DTFUV 1000X700.png" alt="">
-                </div>
-
-                <div class="merchinfocard_header">
-                    <h3>DTV UV: Impresión de Alta Resolución en Superficies Rígidas y Detalladas</h3>
-                    <button class="js-dropdown-toggle" type="button" aria-expanded="false"><i class="fa-solid fa-caret-down"></i></button>
-                    <p>Tecnología innovadora para impresiones en relieve y a todo color. Ideal para superficies rígidas y productos personalizados.</p>
-                </div>
-
-                <div class="merchinfocard_dropdown" aria-hidden="true">
-                    <span>¿Cómo lo hacemos?</span>
-                    <h3>La impresión DTF UV aplica tintas con curado ultravioleta, logrando efectos en relieve y acabados brillantes.</h3>
-                    <p>A diferencia de la serigrafía o el grabado láser, este método transfiere la tinta desde una película especial al objeto mediante luz ultravioleta, asegurando una adhesión instantánea sin alterar la textura original del material. Esto lo hace perfecto para piezas con detalles finos y colores vibrantes, sin los límites de la impresión tradicional.</p>
-                </div>
-            </li>
-
-            <li class="merchinfo_card">
-                <div class="merchinfocard_img">
-                    <img src="assets/img/info/dtftextil1000x700.png" alt="">
-                </div>
-
-                <div class="merchinfocard_header">
-                    <h3>DTF Textil: Transferencias de Alta Calidad para Diseños Duraderos y Llenos de Color</h3>
-                    <button class="js-dropdown-toggle" type="button" aria-expanded="false"><i class="fa-solid fa-caret-down"></i></button>
-                    <p>Impresión textil flexible, nítida y duradera. Ideal para prendas personalizadas sin límites de diseño.</p>
-                </div>
-
-                <div class="merchinfocard_dropdown" aria-hidden="true">
-                    <span>¿Cómo lo hacemos?</span>
-                    <h3>Utiliza un film especial impreso con tintas textiles que luego se adhiere a la tela con calor y presión.</h3>
-                    <p>El proceso consiste en imprimir el diseño en una película especial, que luego se recubre con adhesivo en polvo y se transfiere a la tela mediante calor y presión. En comparación con la serigrafía, el DTF textil permite mayor personalización sin necesidad de crear mallas individuales por color, reduciendo costos en producciones medianas o de ediciones limitadas.</p>
-                </div>
-            </li>
-
-            <li class="merchinfo_card">
-                <div class="merchinfocard_img">
-                    <img src="assets/img/info/impresion3d1000x700.png" alt="">
-                </div>
-
-                <div class="merchinfocard_header">
-                    <h3>Impresión 3D: Innovación con Diseños Personalizados de Alta Precisión</h3>
-                    <button class="js-dropdown-toggle" type="button" aria-expanded="false"><i class="fa-solid fa-caret-down"></i></button>
-                    <p>TCreación de merchandising personalizado con alto nivel de detalle.Ideal para productos únicos y campañas creativas.</p>
-                </div>
-
-                <div class="merchinfocard_dropdown" aria-hidden="true">
-                    <span>¿Cómo lo hacemos?</span>
-                    <h3>Construcción capa por capa a partir de materiales plásticos, resinas o compuestos metálicos.</h3>
-                    <p>A diferencia de métodos tradicionales como el termoformado, la impresión 3D permite fabricar piezas sin necesidad de moldes, lo que la hace ideal para producciones a medida y prototipos. Además, permite el uso de materiales biodegradables y resinas de alta resistencia, ampliando las opciones para productos sustentables y personalizados.</p>
-                </div>
-            </li>
-
-            <li class="merchinfo_card">
-                <div class="merchinfocard_img">
-                    <img src="assets/img/info/camaplana1000x700.png" alt="">
-                </div>
-
-                <div class="merchinfocard_header">
-                    <h3>Cama Plana: Impresión Directa en Materiales Rígidos con Precisión y Durabilidad</h3>
-                    <button class="js-dropdown-toggle" type="button" aria-expanded="false"><i class="fa-solid fa-caret-down"></i></button>
-                    <p>Impresión de alta resolución en materiales rígidos. Ideal para señalética y material publicitario.</p>
-                </div>
-
-                <div class="merchinfocard_dropdown" aria-hidden="true">
-                    <span>¿Cómo lo hacemos?</span>
-                    <h3>Impresión digital directa sobre superficies rígidas con tintas UV de alta adherencia.</h3>
-                    <p>A diferencia del adhesivo vinílico, que puede deteriorarse con el tiempo, la impresión en cama plana fija la tinta directamente sobre la superficie mediante curado UV, garantizando mayor durabilidad y resistencia al clima. Esto la convierte en una excelente opción para productos de uso prolongado en interiores y exteriores.</p>
-                </div>
-            </li>
-
-            <li class="merchinfo_card">
-                <div class="merchinfocard_img">
-                    <img src="assets/img/info/grabadolaser1000x700.png" alt="">
-                </div>
-
-                <div class="merchinfocard_header">
-                    <h3>Grabado Láser: Marcado de Alta Precisión para Personalización y Señalética</h3>
-                    <button class="js-dropdown-toggle" type="button" aria-expanded="false"><i class="fa-solid fa-caret-down"></i></button>
-                    <p>Personalización precisa y permanente en productos corporativos. Ideal para artículos premium y de alta calidad.</p>
-                </div>
-
-                <div class="merchinfocard_dropdown" aria-hidden="true">
-                    <span>¿Cómo lo hacemos?</span>
-                    <h3>Grabado de precisión mediante tecnología láser en diversos materiales.</h3>
-                    <p>A diferencia de la impresión digital o el DTF UV, el grabado láser no añade una capa de tinta sobre el material, sino que modifica directamente su superficie, garantizando que el diseño no se desgaste con el tiempo. Es perfecto para productos de alta gama donde se busca un resultado preciso, elegante y duradero.</p>
-                </div>
-            </li>
-        </ul>
-    </div>
-</section>
-<section class="contacto" id="contacto">
-    <div class="section_container">
-        <div class="section_header">
-            <h2>Contacto</h2>
-        </div>
-        <form action="mailto:contacto@onpublicidad.cl" method="post" enctype="text/plain" class="contacto_form">
-            
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="Nombre" required>
-
-            <label for="email">Correo electrónico</label>
-            <input type="email" id="email" name="Email" required>
-
-            <label for="telefono">Teléfono</label>
-            <input type="tel" id="telefono" name="Teléfono">
-
-            <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" name="Mensaje" rows="5" required></textarea>
-
-            <button class="btn_ btn__primary" type="submit"><span>Enviar</span></button>
-
-        </form>
-    </div>
-</section>
-</main>
+</section>			</main>
 <footer class="site-footer">
     <div class="footer_container">
         <div class="footer_responsive">
@@ -351,7 +195,7 @@
 				<div class="footer_nav">
 					<h5>Menú</h5>
 					<ul>
-						<li><a href="./">Inicio</a></li>
+						<li><a href="#inicio">Inicio</a></li>
 						<li><a href="#servicios">Servicios</a></li>
 						<li><a href="#about">Conoce a ON!</a></li>
 						<li><a href="#ventajas">Ventajas</a></li>
@@ -373,9 +217,9 @@
 				</div>            
 			</div>
         </div>
-        				<!-- Contacto / Redes -->
+        <!-- Contacto / Redes -->
         <div class="footer_contact elemento_escritorio">
-            <h5>Contacto</h5>
+            <h4>Contacto</h4>
             <p>¿Tienes un proyecto en mente?</p>
             <a href="mailto:contacto@orellanallanquileo.cl" class="footer_email">contacto@onpublicidad.cl</a>
 
@@ -386,13 +230,80 @@
             </div>
         </div> 
     </div>
+    <div class="footer_modales">
+        <hr>
+        <small>
+            <ul>
+                <li><button class="js-open-modal" data-modal="modal-faqs" type="button">Preguntas Frecuentes</button></li>
+                <li> · </li>
+                <li><button class="js-open-modal" data-modal="modal-condiciones" type="button">Términos y condiciones</button></li>
+            </ul>
+        </small>
+    </div>
     <!-- Créditos -->
     <div class="footer_bot">
         <p>© 2026 On Publicidad Chile. Todos los derechos reservados.</p>
     </div>
 </footer>
 
+<!-- MODAL: TERMINOS Y CONDICIONES -->
+    <div id="modal-condiciones" class="modal" aria-hidden="true">
+  <div class="modal__overlay js-close-modal" aria-hidden="true"></div>
+
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modal-marcas-title">
+    <button class="modal__close js-close-modal" type="button" aria-label="Cerrar">×</button>
+
+    <div class="terminos_y_condiciones">
+
+    </div>
+  </div>
+</div>
+<!-- MODAL: PREGUNTAS FRECUENTES -->
+    <div id="modal-faqs" class="modal" aria-hidden="true">
+  <div class="modal__overlay js-close-modal" aria-hidden="true"></div>
+
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modal-marcas-title">
+    <button class="modal__close js-close-modal" type="button" aria-label="Cerrar">×</button>
+
+    <div class="preguntas_frecuentes">
+
+    </div>
+  </div>
+</div>
+<!-- MODAL: CONTACTO -->
+    <div id="modal-contacto" class="modal" aria-hidden="true">
+  <div class="modal__overlay js-close-modal" aria-hidden="true"></div>
+
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modal-marcas-title">
+    <button class="modal__close js-close-modal" type="button" aria-label="Cerrar">×</button>
+
+    <div class="contacto" id="contacto">
+			<div class="section_header">
+				<h2>Contacto</h2>
+			</div>
+			<form action="mailto:contacto@onpublicidad.cl" method="post" enctype="text/plain" class="contacto_form">
+				
+				<label for="nombre">Nombre</label>
+				<input type="text" id="nombre" name="Nombre" required>
+
+				<label for="email">Correo electrónico</label>
+				<input type="email" id="email" name="Email" required>
+
+				<label for="telefono">Teléfono</label>
+				<input type="tel" id="telefono" name="Teléfono">
+
+				<label for="mensaje">Mensaje</label>
+				<textarea id="mensaje" name="Mensaje" rows="5" required></textarea>
+
+				<button class="btn_ btn__primary" type="submit"><span>Enviar</span></button>
+
+			</form>
+	  </div>
+  </div>
+</div>
 <script src="assets/js/scripts.js" defer></script>
 <script src="assets/js/merch_info.js" defer></script>
+<script src="assets/js/slider-modelos.js" defer></script>
+<script src="assets/js/site_nav_clone.js" defer></script>
 </body>
 </html>

@@ -2,12 +2,11 @@
   ESTILOS GENERALES  */
 .contacto{background-color: var(--bg-2);}
 #contacto form {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
     max-width: 800px;
     margin: 0 auto;
 }
+#modal-contacto h2{margin: 0;}
+#modal-contacto .btn_{margin-top: 1em;}
 #contacto label {
     font-size: 0.9rem;
     font-weight: 600;

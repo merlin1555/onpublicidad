@@ -1,0 +1,159 @@
+
+/* =========================================================
+  MODALES (con fade-in)
+   ========================================================= */
+.modal{
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  overflow-y: auto;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity .22s ease, visibility .22s ease;
+}
+
+.modal.is-open{
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.modal__overlay{
+  position:absolute;
+  inset:0;
+  background: rgba(0,0,0,.62);
+}
+
+/* Panel con un pequeño "lift" */
+.modal__panel{
+  position: relative;
+  overflow: auto;
+  background: var(--bg-2);
+  padding: 3% 5%;
+  z-index: 1;
+  box-shadow: 0 18px 60px rgba(0,0,0,.35);
+  transform: translateY(10px);
+  transition: transform .22s ease;
+}
+
+.modal.is-open .modal__panel{
+  transform: translateY(0);
+}
+
+.modal__close{
+  position:absolute;
+  top: 10px;
+  right: 10px;
+  border: 0;
+  background: transparent;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+/* Form ordenado dentro de modal */
+.modal label{
+  display:block;
+  margin: 10px 0;
+  font-size: 14px;
+}
+.modal input,
+.modal select,
+.modal textarea{
+  margin-top: 6px;
+  padding: 10px 12px;
+  border: 1px solid rgba(0,0,0,.18);
+  border-radius: 10px;
+  font: inherit;
+}
+.modal textarea{ resize: vertical; }
+
+/*  clases para ambos */
+.formulario_marcas form,
+.formulario_eventos form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 4%;
+}
+.select-row {
+  margin: 8px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.formulario_marcas div,
+.formulario_eventos div{
+    width: 48%;
+    margin-bottom: 1em;
+}
+.formulario_marcas label,
+.formulario_eventos label{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0;
+}
+.formulario_marcas input,
+.formulario_eventos input{
+  width: -webkit-fill-available;
+}
+.formulario_marcas textarea,
+.formulario_eventos textarea{
+  width: -webkit-fill-available;
+}
+.formulario_marcas button,
+.formulario_eventos button{
+    margin-bottom: 1em;
+}
+.formulario_marcas select,
+.formulario_eventos select{
+    width: 100%;
+}
+.formulario_marcas h3,
+.formulario_eventos h3{
+    margin: 0 0 1em;
+    font-size: 160%;
+    color: var(--ink);
+}
+label{
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+    flex: 1 1 240px;
+}
+.politicas_de_privacidad h1,
+.politicas_de_privacidad h2,
+.terminos_y_condiciones h1,
+.terminos_y_condiciones h2{
+  color: var(--ink);
+}
+html.modal-open{
+  overflow: hidden;
+  padding-right: var(--sbw, 0px);
+}
+
+/* =========================================================
+  RESPONSIVE: MÓVILES / TABLET (≤ 959px)
+  ========================================================= */
+@media (max-width:959px){
+  .modal__panel{
+    width: min(720px, calc(90% - 24px));
+    margin: 7vh auto;
+    max-height: calc(85dvh - 24px);
+  }
+}
+
+/* =========================================================
+  RESPONSIVE: ESCRITORIO (≥ 960px)
+  ========================================================= */
+@media (min-width:960px){
+  .modal__panel{
+    width: min(720px, calc(100% - 24px));
+    margin: 12px auto;
+    min-height: calc(75dvh - 24px);
+    max-height: calc(80dvh - 24px);
+  }
+}

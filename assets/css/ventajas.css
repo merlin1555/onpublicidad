@@ -7,6 +7,8 @@
 .ventajas_info .ventajas_card i{font-size: 180%; color: var(--brand-dark);margin-right: 0.2em;width: 1em;height: 1em;}
 .ventajas_info .ventajas_card p{margin: 0 0 0 3em;font-size: 80%;}
 .ventajas_visor{display: flex;align-items: center;justify-content: center;}
+.ventajas_visor{display: grid;grid-template-columns: auto 1fr auto;align-items: center;gap: 12px;}
+.visor_btn{cursor: pointer;background-color: transparent;border: none;font-size: 170%;}
 /* =========================================================
   RESPONSIVE: MÓVILES / TABLET (≤ 959px) */
 @media (max-width:959px){
@@ -18,6 +20,8 @@
   RESPONSIVE: ESCRITORIO (≥ 960px) */
 @media (min-width:960px){
   .ventajas_block{justify-content: space-around;}
-  .ventajas_visor{width: 50%;}
+  .ventajas_visor{width: 60%;}
   .ventajas_info{flex-direction: column;justify-content: center;gap: 1em;}
+  .ventajas_info-1{padding-right: 1em;}
+  .ventajas_info-2{padding-left: 1em;}
 }
