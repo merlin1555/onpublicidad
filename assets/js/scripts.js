@@ -66,27 +66,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const triggerSection = document.querySelector("#servicios");
     const floatingBox = document.querySelector(".floating-box");
+    const cloneNav = document.querySelector("#site_nav_clone");
 
-    if (!triggerSection || !floatingBox) return;
+    if (!triggerSection || !floatingBox || !cloneNav) return;
+
+    function updateFloatingPosition() {
+        const navHeight = cloneNav.offsetHeight;
+        floatingBox.style.top = navHeight + "px";
+    }
+
+    updateFloatingPosition();
+    window.addEventListener("resize", updateFloatingPosition);
 
     const observer = new IntersectionObserver((entries) => {
 
         entries.forEach(entry => {
 
-            // Si la sección ya salió por arriba (la pasaste)
             if (!entry.isIntersecting && entry.boundingClientRect.top < 0) {
                 floatingBox.classList.add("active");
-            } 
-            // Si la sección está visible o vuelves hacia arriba
-            else {
+            } else {
                 floatingBox.classList.remove("active");
             }
 
         });
 
-    }, {
-        threshold: 0
-    });
+    }, { threshold: 0 });
 
     observer.observe(triggerSection);
 
