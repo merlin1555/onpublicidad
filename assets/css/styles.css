@@ -4,6 +4,11 @@
 :root{
   /* Fondo General */
   --bg:linear-gradient(180deg, #343a40 0%, #061225 100%);;
+  --bg-1:linear-gradient(
+    90deg,
+    #061225 50%,
+    #5f6a75 60%,
+    #E8E8E8 100%);
   --bg-2: #E8E8E8;
   --bg-3: #F4F4EA;
   --paper:#fff;

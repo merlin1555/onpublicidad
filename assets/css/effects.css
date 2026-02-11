@@ -1,0 +1,74 @@
+/* =========================================================
+  Efecto "SCALE" reutilizable
+   ========================================================= */
+.fx-scale{
+  transform:scale(1);
+  transition:transform .28s cubic-bezier(.22,1,.36,1);
+  will-change:transform;
+  -webkit-backface-visibility:hidden; backface-visibility:hidden;
+}
+.fx-scale:hover,
+.fx-scale:focus-visible{ transform:scale(1.04); }
+.fx-scale:active{ transform:scale(.98); }
+@media (prefers-reduced-motion:reduce){
+  .fx-scale{ transition:none !important; }
+  .fx-scale:hover,
+  .fx-scale:focus-visible,
+  .fx-scale:active{ transform:none !important; }
+}
+/* ================================ Hover Line effect ======================================== */
+.line_hover,
+.line_hover-2{
+	position: relative;
+	display: inline-block;
+}
+.line_hover:hover{
+  color: var(--paper);
+  transition: all 0.5s;
+}
+.line_hover-2:hover{
+  color: var(--brand);
+  transition: all 0.5s;
+}
+.line_hover::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	width: 0;
+	height: 2px;
+	transition: width 0.5s;
+    background-color: var(--paper);
+}
+.line_hover-2::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	width: 0;
+	height: 2px;
+	transition: width 0.5s;
+  background-color: var(--brand);
+}
+.line_hover:hover::after,
+.line_hover-2:hover::after{
+	width: 100%;
+}
+/* ================================ Línea inicial para textos ======================================== */
+.con-linea {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--brand-light);
+  text-transform: uppercase;
+}
+
+.con-linea::before {
+  content: "";
+  width: 1.8em;
+  height: 0.4em;
+  background-color: var(--brand-light);
+}
+.sin-linea{
+  color: var(--brand-light);
+}

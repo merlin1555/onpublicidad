@@ -61,3 +61,33 @@
     if (e.key === "Escape" && currentModal) closeModal(currentModal);
   });
 })();
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const triggerSection = document.querySelector("#servicios");
+    const floatingBox = document.querySelector(".floating-box");
+
+    if (!triggerSection || !floatingBox) return;
+
+    const observer = new IntersectionObserver((entries) => {
+
+        entries.forEach(entry => {
+
+            // Si la sección ya salió por arriba (la pasaste)
+            if (!entry.isIntersecting && entry.boundingClientRect.top < 0) {
+                floatingBox.classList.add("active");
+            } 
+            // Si la sección está visible o vuelves hacia arriba
+            else {
+                floatingBox.classList.remove("active");
+            }
+
+        });
+
+    }, {
+        threshold: 0
+    });
+
+    observer.observe(triggerSection);
+
+});

@@ -24,7 +24,7 @@
 				<div class="footer_contact elemento_movil">
 					<h5>Contacto</h5>
 					<p>¿Tienes un proyecto en mente?</p>
-					<a href="mailto:contacto@orellanallanquileo.cl" class="footer_email">contacto@onpublicidad.cl</a>
+					<span>contacto@onpublicidad.cl</span>
 
 					<div class="footer_social">
 						<a href="#" aria-label="GitHub">Whatsapp</a>
@@ -38,7 +38,7 @@
         <div class="footer_contact elemento_escritorio">
             <h4>Contacto</h4>
             <p>¿Tienes un proyecto en mente?</p>
-            <a href="mailto:contacto@orellanallanquileo.cl" class="footer_email">contacto@onpublicidad.cl</a>
+            <span>contacto@onpublicidad.cl</span>
 
             <div class="footer_social">
                 <a href="#" aria-label="GitHub">Whatsapp</a>

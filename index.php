@@ -1,7 +1,7 @@
 <?php include("content/header.php");?>
 <main id="inicio">
 	<?php include("content/hero.php");?>
-	<?php //include("content/servicios.php");?>
+	<?php include("content/categorias.php");?>
 	<?php include("content/about.php");?>
 	<?php //include("content/tecnologias.php");?>
 	<?php include("content/ventajas.php");?>

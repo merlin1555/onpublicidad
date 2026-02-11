@@ -22,9 +22,11 @@
     <link rel="stylesheet" href="assets/css/call_action.css">
     <link rel="stylesheet" href="assets/css/merch_info.css">
     <link rel="stylesheet" href="assets/css/contacto.css">
+    <link rel="stylesheet" href="assets/css/categorias.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/buttons.css">
     <link rel="stylesheet" href="assets/css/fontstyles.css">
+    <link rel="stylesheet" href="assets/css/effects.css">
     <link rel="stylesheet" href="assets/css/formularios-modal.css">
 
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>

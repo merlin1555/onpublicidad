@@ -23,6 +23,25 @@
 .site_nav--clone.is-visible{transform: translateY(0);}
 #site_nav_clone{background-color: rgb(232 232 232 / 90%);box-shadow: 0 12px 25px rgba(0,0,0,0.20);}
 .nav_principal--clone a{color: var(--fuente);}
+
+.floating-box {
+  position: fixed;
+  top: 15.5%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: transform 0.4s ease, opacity 0.3s ease;
+  z-index: 999;
+  background-color: var(--coal);
+}
+.floating-box.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+.floating-box_nav{list-style: none;display: flex;gap: 2em;font-size: 80%;justify-content: center;align-items: center;}
+.floating-box_nav a{text-decoration: none;color: var(--paper);}
+
 /* =========================================================
   RESPONSIVE: MÓVILES / TABLET (≤ 959px) */
 @media (max-width:959px){

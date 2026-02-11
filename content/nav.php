@@ -29,3 +29,13 @@
     <div class="elemento_escritorio"><a class="btn_ btn__primary reveal-up" href="#contacto"><span>Contacto</span></a></div>
   </div>
 </div>
+<div class="floating-box">
+  <ul class="floating-box_nav">
+    <li><a href="#inicio" class="line_hover-2">Textil Personalizado</a></li>
+    <li><a href="#inicio" class="line_hover-2">Merchandising Promocional</a></li>
+    <li><a href="#inicio" class="line_hover-2">Grabado Láser y Corte</a></li>
+    <li><a href="#inicio" class="line_hover-2">Merchandising 3D</a></li>
+    <li><a href="#inicio" class="line_hover-2">Galvanos y Reconocimientos</a></li>
+    <li><a href="#inicio" class="line_hover-2">Regalos y Kits Corporativos</a></li>
+  </ul>
+</div>
