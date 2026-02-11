@@ -21,7 +21,7 @@
 .categorias_info h2{margin:0.5em 0;}
 .categorias_info p{margin: 0 0 2em;}
 .categorias_info_img img{width: 100%;object-fit: cover;height: 100%;}
-.servicios_list{display: flex;flex-wrap: wrap;list-style: none;padding: 0;margin: 0;gap: 1em;justify-content: end;}
+.servicios_list{display: flex;flex-wrap: wrap;list-style: none;margin: 0;gap: 1em;}
 .servicios_list li{padding: 1em; width: 40%;background-color: var(--bg-2);border-radius: 5px;cursor: pointer;box-shadow: var(--shadow);}
 .servicios_list li img{width: 30%;}
 .servicios_list li h3{margin-bottom: 0.5em;margin-top: 0;}
@@ -30,6 +30,8 @@
   RESPONSIVE: MÓVILES / TABLET (≤ 959px) */
 @media (max-width:959px){
   .categorias .section_container{flex-direction: column;}
+  .servicios_list li{width: 35%;}
+  .servicios_list{padding: 2em 0 0;justify-content: center;}
 }
 
 /* =========================================================
@@ -38,4 +40,6 @@
   .categorias .categorias_info{width: 40%;}
   .servicios_list{width: 60%;}
   .categorias .section_container{padding: 8em 7% 4em;}
+  .servicios_list li{width: 40%;}
+  .servicios_list{padding: 0;justify-content: end;}
 }

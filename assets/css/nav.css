@@ -26,7 +26,6 @@
 
 .floating-box {
   position: fixed;
-  top: 14%;
   left: 0;
   width: 100%;
   transform: translateY(-100%);
@@ -39,7 +38,7 @@
     transform: translateY(0);
     opacity: 1;
 }
-.floating-box_nav{list-style: none;display: flex;gap: 2em;font-size: 80%;justify-content: center;align-items: center;}
+.floating-box_nav{list-style: none;display: flex;gap: 2em;justify-content: center;align-items: center;flex-wrap: wrap;}
 .floating-box_nav a{text-decoration: none;color: var(--paper);}
 
 /* =========================================================
@@ -47,6 +46,8 @@
 @media (max-width:959px){
   .nav_principal{margin-top: 1em;}
   .nav_container{padding: 1em 5%;flex-wrap: wrap;}
+  .floating-box {top: 19%;}
+.floating-box_nav{font-size: 60%;}
 }
 
 /* =========================================================
@@ -54,4 +55,6 @@
 @media (min-width:960px){
   .nav_principal{justify-content: end;}
   .nav_container{padding: 1em 5%;}
+  .floating-box {top: 14%;}
+.floating-box_nav{font-size: 80%;}
 }
