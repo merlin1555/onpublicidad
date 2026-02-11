@@ -51,7 +51,7 @@
 @media (max-width:959px){
   .nav_principal{margin-top: 1em;}
   .nav_container{padding: 1em 5%;flex-wrap: wrap;}
-  .floating-box_nav{font-size: 50%;}
+  .floating-box_nav{font-size: 60%;}
 }
 
 /* =========================================================
