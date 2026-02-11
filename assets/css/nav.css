@@ -26,7 +26,7 @@
 
 .floating-box {
   position: fixed;
-  top: 15.5%;
+  top: 14%;
   left: 0;
   width: 100%;
   transform: translateY(-100%);
