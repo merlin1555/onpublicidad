@@ -16,6 +16,11 @@
   text-transform: uppercase;
 
 }
+@media screen and (width: 3840px) {
+  .btn_{
+    font-size: clamp(1.7rem, 2vw, 2rem);
+    padding: 1.4rem 2.2rem;}
+}
 .btn_ span{transition: all 0.5s;}
 /* =========================
    BOTÓN PRIMARY

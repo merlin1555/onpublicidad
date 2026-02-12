@@ -2,18 +2,18 @@
     <div class="section_container">
         <div class="section_header">
             <span class="head_info">ventajas</span>
-            <h2>Todos nuestros productos cuentan con una calidad excelente</h2>
-            <p class="muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ex illo omnis? Doloremque reiciendis, suscipit, fuga accusamus vero, voluptas aliquam vel magni quibusdam quo possimus. Sunt culpa delectus ratione ad?</p>
+            <h2>Soluciones diseñadas para destacar y generar valor para tu marca</h2>
+            <p>Nuestros productos combinan creatividad, fabricación especializada y personalización total. Trabajamos con empresas de distintos sectores adaptando cada solución a sus objetivos, presupuesto y necesidades específicas.</p>
         </div>
         <div class="ventajas_block">
             <ul class="ventajas_info ventajas_info-1">
                 <li class="ventajas_card">
-                    <h3><i class="fa-solid fa-bell"></i> Lorem ipsum dolor</h3>
-                    <p class="muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae id a laborum alias quos, suscipit debitis quae.</p>
+                    <h3><i class="fa-solid fa-bell"></i> Personalización Total</h3>
+                    <p>Cada producto puede adaptarse en diseño, materiales, técnicas de marcaje y presentación, permitiendo crear soluciones únicas para cada cliente.</p>
                 </li>
                 <li class="ventajas_card">
-                    <h3><i class="fa-solid fa-puzzle-piece"></i> Lorem ipsum dolor</h3>
-                    <p class="muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae id a laborum alias quos, suscipit debitis quae.</p>
+                    <h3><i class="fa-solid fa-puzzle-piece"></i> Producción Integral</h3>
+                    <p>Centralizamos diseño, desarrollo y fabricación, facilitando la coordinación de proyectos y garantizando coherencia en cada detalle.</p>
                 </li>
             </ul>
             <div class="ventajas_visor">
@@ -35,12 +35,12 @@
             </div>
             <ul class="ventajas_info ventajas_info-2">
                 <li class="ventajas_card">
-                    <h3><i class="fa-solid fa-comment"></i> Lorem ipsum dolor</h3>
-                    <p class="muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae id a laborum alias quos, suscipit debitis quae.</p>
+                    <h3><i class="fa-solid fa-comment"></i> Asesoría Estratégica</h3>
+                    <p>Apoyamos a nuestros clientes en la selección de productos, técnicas y soluciones que mejor representen su marca y objetivos comunicacionales.</p>
                 </li>
                 <li class="ventajas_card">
-                    <h3><i class="fa-solid fa-lock"></i> Lorem ipsum dolor</h3>
-                    <p class="muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae id a laborum alias quos, suscipit debitis quae.</p>
+                    <h3><i class="fa-solid fa-lock"></i> Control de Calidad</h3>
+                    <p>Supervisamos cada etapa del proceso productivo para asegurar terminaciones profesionales y resultados consistentes.</p>
                 </li>
             </ul>
         </div>
