@@ -11,38 +11,38 @@
         <ul class="servicios_list trigger-section">
             <li class="fx-scale">
                 <img src="assets/img/icon/textil.png" alt="">
-                <h3>Textil Personalizado</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>Ropa Corporativa</h3>
+                <p>Desarrollamos vestuario corporativo y promocional personalizado para fortalecer la identidad de tu marca. Incluye diseño, producción y distintas técnicas de estampado y bordado.</p>
                 <a href="#textil" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>
             </li>
             <li class="fx-scale">
                 <img src="assets/img/icon/Promocional.png" alt="">
                 <h3>Merchandising Promocional</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Creamos productos publicitarios personalizados para campañas, eventos y posicionamiento de marca, con soluciones creativas adaptadas a cada necesidad.</p>
                 <a href="#merch" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>
             </li>
             <li class="fx-scale">
                 <img src="assets/img/icon/laser.png" alt="">
                 <h3>Grabado Láser y Corte</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Fabricamos piezas personalizadas a medida con tecnología láser de alta precisión para señalética, regalos corporativos, packaging y productos decorativos.</p>
                 <a href="#" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>
             </li>
             <li class="fx-scale">
                 <img src="assets/img/icon/3d.png" alt="">
                 <h3>Merchandising 3D</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Diseñamos y producimos artículos promocionales únicos mediante modelado e impresión 3D, ideales para marcas que buscan diferenciarse con innovación con materiales ecológicos.</p>
                 <a href="#" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>
             </li>
             <li class="fx-scale">
                 <img src="assets/img/icon/merch.png" alt="">
                 <h3>Galvanos y Reconocimientos</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Creamos trofeos, placas y premios personalizados que destacan logros institucionales, deportivos y corporativos con diseño exclusivo y fabricación de alta calidad.</p>
                 <a href="#" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>
             </li>
             <li class="fx-scale">
                 <img src="assets/img/icon/galvanos.png" alt="">
                 <h3>Regalos y Kits Corporativos</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Desarrollamos kits y regalos empresariales personalizados que fortalecen la relación con clientes, colaboradores y socios estratégicos.</p>
                 <a href="#" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>
             </li>
         </ul>

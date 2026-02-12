@@ -3,7 +3,7 @@
         <div class="hero_info">
             <h2>Textil <b>Corporativo</b><br><span>Personalizado</span></h2>
             <p>Poleras, uniformes, bolsas reutilizables y ropa publicitaria personalizada</p>
-            <a href="#" class="btn_ btn__primary">Soliticar Cotización <i class="fa-solid fa-angle-right"></i></a>
+            <a href="#" class="btn_ btn__primary"><span>Soliticar Cotización <i class="fa-solid fa-angle-right"></i></span></a>
         </div>
         <div class="hero_img">
             <img src="assets/img/libreria/banner_textil.png" alt="">
@@ -33,8 +33,7 @@
             </li>
         </ul>
     </div>
-</section>
-<section class="textil_proceso">
+
     <div class="section_container">
         <h2>Nuestro Proceso</h2>
         <ul class="textil_proceso_list">
@@ -67,49 +66,5 @@
                 </div>
             </li>
         </ul>
-    </div>
-</section>
-
-<!--SECCION TEMPORAL PARA MERCH -->
-<section class="textil" id="merch">
-    <div class="section_container">
-        <div class="hero_info">
-            <h2>Merchandising <br><span>Promocional</span> <b>Corporativo</b></h2>
-            <p>Regalos publicitarios y productos promocionales personalizados para empresas y eventos.</p>
-            <a href="#" class="btn_ btn__primary">Soliticar Cotización <i class="fa-solid fa-angle-right"></i></a>
-        </div>
-        <div class="hero_img">
-            <img src="assets/img/libreria/banner_textil.png" alt="">
-        </div>
-    </div>
-</section>
-<section class="textil_comienza">
-    <div class="section_container">
-        <h2>Potencia tu marca con <b>Merchandising</b> Promocional</h2>
-        <p>Regalos publicitarios y productos promocionales personalizados para empresas y eventos.</p>
-        <ul class="textil_list">
-            <li class="fx-scale">
-                <h4>Serigrafía</h4>
-                <a href="" class="btn_ btn__primary"><span>Cotizar <i class="fa-solid fa-angle-right"></i></span></a>
-            </li>
-            <li class="fx-scale">
-                <h4>DTF Full Color</h4>
-                <a href="" class="btn_ btn__primary"><span>Cotizar <i class="fa-solid fa-angle-right"></i></span></a>
-            </li>
-            <li class="fx-scale">
-                <h4>Bordado</h4>
-                <a href="" class="btn_ btn__primary"><span>Cotizar <i class="fa-solid fa-angle-right"></i></span></a>
-            </li>
-            <li class="fx-scale">
-                <h4>Sublimación</h4>
-                <a href="" class="btn_ btn__primary"><span>Cotizar <i class="fa-solid fa-angle-right"></i></span></a>
-            </li>
-        </ul>
-    </div>
-</section>
-<section class="textil_proceso">
-    <div class="section_container">
-        <h2>¿Tienes Preguntas?</h2>
-
     </div>
 </section>

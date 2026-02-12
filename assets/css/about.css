@@ -1,6 +1,6 @@
 /* =========================================================
   ESTILOS GENERALES - ABOUT  */
-.about{background-color: var(--bg-2);}
+.about{background-color: var(--bg-2);background-image: url("../img/bg/bg.png");background-position: center;background-size: cover;}
 .about .section_container{text-align: center;}
 .about_list{list-style: none;display: flex;justify-content: space-around;padding: 0;margin: 0;}
 .about_list li{display: flex;flex-direction: column;align-items: center;justify-content: center;padding: 2em;}

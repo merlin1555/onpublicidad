@@ -1,6 +1,6 @@
 /* =========================================================
   ESTILOS GENERALES - HERO  */
-.hero{background: var(--bg);color: var(--paper);position: relative;}
+.hero{background: var(--bg);color: var(--paper);position: relative;background-image: url("../img/bg/bg-1.png");background-position: center;background-size: cover;}
 .hero .section_container{display: flex;padding: 0;}
 .hero_info{
   display: flex;

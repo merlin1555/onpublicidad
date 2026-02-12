@@ -1,5 +1,5 @@
 
-.categorias{position: relative;background: var(--bg-1);}
+.categorias{position: relative;background: var(--bg-1);background-image: url("../img/bg/bg-1.png");background-position: center;background-size: cover;}
 .degrade{
   position: absolute;
   top: 0;
