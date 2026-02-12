@@ -13,13 +13,13 @@
                 <img src="assets/img/icon/textil.png" alt="">
                 <h3>Textil Personalizado</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a href="#" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>
+                <a href="#textil" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>
             </li>
             <li class="fx-scale">
                 <img src="assets/img/icon/Promocional.png" alt="">
                 <h3>Merchandising Promocional</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a href="#" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>
+                <a href="#merch" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>
             </li>
             <li class="fx-scale">
                 <img src="assets/img/icon/laser.png" alt="">
