@@ -11,37 +11,37 @@
         <ul class="servicios_list trigger-section">
             <li class="fx-scale">
                 <img src="assets/img/icon/textil.png" alt="">
-                <h4>Textil Personalizado</h4>
+                <h3>Textil Personalizado</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <a href="#" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>
             </li>
             <li class="fx-scale">
                 <img src="assets/img/icon/Promocional.png" alt="">
-                <h4>Merchandising Promocional</h4>
+                <h3>Merchandising Promocional</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <a href="#" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>
             </li>
             <li class="fx-scale">
                 <img src="assets/img/icon/laser.png" alt="">
-                <h4>Grabado Láser y Corte</h4>
+                <h3>Grabado Láser y Corte</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <a href="#" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>
             </li>
             <li class="fx-scale">
                 <img src="assets/img/icon/3d.png" alt="">
-                <h4>Merchandising 3D</h4>
+                <h3>Merchandising 3D</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <a href="#" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>
             </li>
             <li class="fx-scale">
                 <img src="assets/img/icon/merch.png" alt="">
-                <h4>Galvanos y Reconocimientos</h4>
+                <h3>Galvanos y Reconocimientos</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <a href="#" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>
             </li>
             <li class="fx-scale">
                 <img src="assets/img/icon/galvanos.png" alt="">
-                <h4>Regalos y Kits Corporativos</h4>
+                <h3>Regalos y Kits Corporativos</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <a href="#" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>
             </li>
