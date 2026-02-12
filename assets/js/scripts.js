@@ -62,6 +62,8 @@
   });
 })();
 
+// Tercer "nav" oculto
+/*
 document.addEventListener("DOMContentLoaded", function () {
 
     const triggerSection = document.querySelector("#servicios");
@@ -128,3 +130,4 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 });
+*/

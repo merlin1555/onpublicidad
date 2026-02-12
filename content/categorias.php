@@ -2,7 +2,7 @@
     <div class="section_container">
         <div class="categorias_info">
             <span class="head_info">Conoce nuestros Servicios</span>
-            <h2>Soluciones Personalizadas <br><small>de <b>Merchandising</b> Corporativo</small></h2>
+            <h2>Soluciones de <b>Merchandising</b> Corporativo</h2>
             <p>Ofrecemos soluciones de merchandising completamente personalizables para fortalecer tu <b>marca</b>. Nos encargamos de todo el proceso: asesoría, diseño, prototipo, producción y entrega.</p>
             <div class="categorias_info_img">
                 <img src="assets/img/libreria/perro.png" alt="Imágen de distintos productos de merchandising">

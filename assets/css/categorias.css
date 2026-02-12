@@ -18,7 +18,7 @@
 }
 .categorias .section_container{display: flex;}
 .categorias_info{color: var(--paper);display: flex;flex-direction: column;justify-content: end;}
-.categorias_info h2{margin:0.5em 0;}
+.categorias_info h2{margin:0.5em 0;font-size: 180%}
 .categorias_info p{margin: 0 0 2em;font-weight: 400;color: var(--muted);}
 .categorias_info_img img{width: 100%;object-fit: cover;height: 100%;}
 .servicios_list{display: flex;flex-wrap: wrap;list-style: none;margin: 0;gap: 1em;}

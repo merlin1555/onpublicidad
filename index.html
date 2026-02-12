@@ -68,6 +68,8 @@
     <div class="elemento_escritorio"><a class="btn_ btn__primary reveal-up" href="#contacto"><span>Contacto</span></a></div>
   </div>
 </div>
+
+<!-- MENÚ 3 Menú de categorías oculto 
 <div class="floating-box">
   <ul class="floating-box_nav">
     <li><a href="#textil" class="line_hover-2">Textil Personalizado</a></li>
@@ -77,13 +79,14 @@
     <li><a href="#galvanos" class="line_hover-2">Galvanos y Reconocimientos</a></li>
     <li><a href="#corporativo" class="line_hover-2">Regalos y Kits Corporativos</a></li>
   </ul>
-</div>
+</div>-->
+
     <div class="section_container">
         <div class="hero_info">
-            <h1>ON! Publicidad y Marketing</h1>
-            <h3>Trabajos 100% personalizados</h3>
-            <p>Impresión de calidad, regalos personalizados, eventos excepcionales y estrategias digitales diseñadas para impactar.</p>
-            <a href="#ventajas" class="btn_ btn__primary"><span>Ver Detalles <i class="fa-solid fa-angle-right"></i></span></a>
+            <h1>Soluciones Integrales en Publicidad y Merchandising</h1>
+            <h3>Desarrollamos proyectos 100% personalizados para potenciar tu marca.</h3>
+            <p>Diseñamos, fabricamos y personalizamos productos corporativos, promocionales y soluciones publicitarias adaptadas a cada empresa, evento o campaña. Integramos creatividad, tecnología y producción para entregar resultados que generan impacto.</p>
+            <a href="#ventajas" class="btn_ btn__primary"><span>Explorar <i class="fa-solid fa-angle-right"></i></span></a>
         </div>
         <div class="hero_img">
             <img src="assets/img/libreria/banner_merch.png" alt="">
@@ -421,13 +424,62 @@
 </footer>
 
 <!-- MODAL: TERMINOS Y CONDICIONES -->
-    <?php include_once("modal-condiciones.php");?>
+<div id="modal-condiciones" class="modal" aria-hidden="true">
+  <div class="modal__overlay js-close-modal" aria-hidden="true"></div>
+
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modal-marcas-title">
+    <button class="modal__close js-close-modal" type="button" aria-label="Cerrar">×</button>
+
+    <div class="terminos_y_condiciones">
+
+    </div>
+  </div>
+</div>
 
 <!-- MODAL: PREGUNTAS FRECUENTES -->
-    <?php include_once("modal-faqs.php");?>
+<div id="modal-faqs" class="modal" aria-hidden="true">
+  <div class="modal__overlay js-close-modal" aria-hidden="true"></div>
+
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modal-marcas-title">
+    <button class="modal__close js-close-modal" type="button" aria-label="Cerrar">×</button>
+
+    <div class="preguntas_frecuentes">
+
+    </div>
+  </div>
+</div>
 
 <!-- MODAL: CONTACTO -->
-    <?php include_once("modal-contacto.php");?>
+<div id="modal-contacto" class="modal" aria-hidden="true">
+  <div class="modal__overlay js-close-modal" aria-hidden="true"></div>
+
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modal-marcas-title">
+    <button class="modal__close js-close-modal" type="button" aria-label="Cerrar">×</button>
+
+    <div class="contacto" id="contacto">
+			<div class="section_header">
+				<h2>Contacto</h2>
+			</div>
+			<form action="mailto:contacto@onpublicidad.cl" method="post" enctype="text/plain" class="contacto_form">
+				
+				<label for="nombre">Nombre</label>
+				<input type="text" id="nombre" name="Nombre" required>
+
+				<label for="email">Correo electrónico</label>
+				<input type="email" id="email" name="Email" required>
+
+				<label for="telefono">Teléfono</label>
+				<input type="tel" id="telefono" name="Teléfono">
+
+				<label for="mensaje">Mensaje</label>
+				<textarea id="mensaje" name="Mensaje" rows="5" required></textarea>
+
+				<button class="btn_ btn__primary" type="submit"><span>Enviar</span></button>
+
+			</form>
+	  </div>
+  </div>
+</div>
 
 <script src="assets/js/scripts.js" defer></script>
 <script src="assets/js/merch_info.js" defer></script>

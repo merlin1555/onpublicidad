@@ -29,6 +29,8 @@
     <div class="elemento_escritorio"><a class="btn_ btn__primary reveal-up" href="#contacto"><span>Contacto</span></a></div>
   </div>
 </div>
+
+<!-- MENÚ 3 Menú de categorías oculto 
 <div class="floating-box">
   <ul class="floating-box_nav">
     <li><a href="#textil" class="line_hover-2">Textil Personalizado</a></li>
@@ -38,4 +40,4 @@
     <li><a href="#galvanos" class="line_hover-2">Galvanos y Reconocimientos</a></li>
     <li><a href="#corporativo" class="line_hover-2">Regalos y Kits Corporativos</a></li>
   </ul>
-</div>
+</div>-->
