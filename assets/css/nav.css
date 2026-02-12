@@ -21,7 +21,7 @@
 }
 /* Cuando se activa, baja y ocupa el lugar */
 .site_nav--clone.is-visible{transform: translateY(0);}
-#site_nav_clone{background-color: rgb(232 232 232 / 90%);box-shadow: 0 12px 25px rgba(0,0,0,0.20);}
+#site_nav_clone{background-color: rgb(232 232 232 / 95%);box-shadow: 0 12px 25px rgba(0,0,0,0.20);}
 .nav_principal--clone a{color: var(--fuente);}
 
 .floating-box {
@@ -45,6 +45,10 @@
 
 .floating-box_nav{list-style: none;display: flex;gap: 2em;justify-content: center;align-items: center;flex-wrap: wrap;padding: 0 0.5em;}
 .floating-box_nav a{text-decoration: none;color: var(--paper);}
+.line_hover-2.active {
+  /* mismo estilo que hover */
+  color: var(--brand);
+}
 
 /* =========================================================
   RESPONSIVE: MÓVILES / TABLET (≤ 959px) */
@@ -60,4 +64,6 @@
   .nav_principal{justify-content: end;}
   .nav_container{padding: 1em 5%;}
   .floating-box_nav{font-size: 80%;}
+  .nav_container .elemento_escritorio{position: relative;z-index: 9;}
+  .nav_container .nav_principal{position: relative;z-index: 9;}
 }

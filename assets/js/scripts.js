@@ -95,3 +95,36 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(triggerSection);
 
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  const links = document.querySelectorAll(".floating-box_nav a");
+
+  const observer = new IntersectionObserver(entries => {
+
+    entries.forEach(entry => {
+
+      if(entry.isIntersecting){
+
+        const id = entry.target.id;
+
+        links.forEach(link => {
+          link.classList.toggle(
+            "active",
+            link.getAttribute("href") === `#${id}`
+          );
+        });
+
+      }
+
+    });
+
+  }, {
+    rootMargin: "-40% 0px -40% 0px"
+  });
+
+  document.querySelectorAll("section[id]").forEach(section => {
+    observer.observe(section);
+  });
+
+});

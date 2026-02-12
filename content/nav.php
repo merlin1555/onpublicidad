@@ -31,11 +31,11 @@
 </div>
 <div class="floating-box">
   <ul class="floating-box_nav">
-    <li><a href="#inicio" class="line_hover-2">Textil Personalizado</a></li>
-    <li><a href="#inicio" class="line_hover-2">Merchandising Promocional</a></li>
-    <li><a href="#inicio" class="line_hover-2">Grabado Láser y Corte</a></li>
-    <li><a href="#inicio" class="line_hover-2">Merchandising 3D</a></li>
-    <li><a href="#inicio" class="line_hover-2">Galvanos y Reconocimientos</a></li>
-    <li><a href="#inicio" class="line_hover-2">Regalos y Kits Corporativos</a></li>
+    <li><a href="#textil" class="line_hover-2">Textil Personalizado</a></li>
+    <li><a href="#merch" class="line_hover-2">Merchandising Promocional</a></li>
+    <li><a href="#laser" class="line_hover-2">Grabado Láser y Corte</a></li>
+    <li><a href="#3d" class="line_hover-2">Merchandising 3D</a></li>
+    <li><a href="#galvanos" class="line_hover-2">Galvanos y Reconocimientos</a></li>
+    <li><a href="#corporativo" class="line_hover-2">Regalos y Kits Corporativos</a></li>
   </ul>
 </div>

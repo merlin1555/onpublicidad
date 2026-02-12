@@ -3,8 +3,8 @@
 	<?php include("content/hero.php");?>
 	<?php include("content/categorias.php");?>
 	<?php include("content/about.php");?>
-	<?php //include("content/tecnologias.php");?>
 	<?php include("content/ventajas.php");?>
+	<?php include("content/textil-personalizado.php");?>
 	<?php include("content/call_action.php");?>
 	<?php //include("content/merch_info.php");?>
 	<?php //include("content/trust.php");?>

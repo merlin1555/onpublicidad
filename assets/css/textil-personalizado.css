@@ -1,0 +1,18 @@
+.textil{background: var(--bg);color: var(--paper);}
+.textil .hero_info h2{font-size: 250%;margin-bottom: 0;}
+.textil .hero_info h2 span{color: var(--brand) !important;}
+.textil .section_container{display: flex;padding: 0;}
+.textil .textil_img img{width: 100%;height: 100%;object-fit: cover;}
+.textil .hero_info{padding-left: 10%;text-align: start;align-items: start;}
+.textil .hero_img{height: 70vh !important;}
+.textil_comienza{background-color: var(--bg-2);}
+.textil_comienza h2{font-size: 200%;color: var(--ink);margin: 0;}
+.textil_list{list-style: none;display: flex;gap: 1.5em;padding: 0;margin: 0;}
+.textil_list li{background-color: var(--paper);border-radius: 5px;width: 25%;padding: 1em;min-height: 30vh;display: flex;flex-direction: column;justify-content: space-between;}
+.textil_list li h4{margin: 0;}
+@media (max-width:959px){
+    
+}
+@media (min-width:960px){
+    
+}

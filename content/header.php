@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/merch_info.css">
     <link rel="stylesheet" href="assets/css/contacto.css">
     <link rel="stylesheet" href="assets/css/categorias.css">
+    <link rel="stylesheet" href="assets/css/textil-personalizado.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/buttons.css">
     <link rel="stylesheet" href="assets/css/fontstyles.css">
