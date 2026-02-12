@@ -2,7 +2,7 @@
   ESTILOS GENERALES - NAV  */
 .site_nav{position: absolute;top: 0;width: 100%;}
 .nav_container{display: flex;justify-content: space-between;align-items: center;}
-.nav_brand img{width: 8em;}
+.nav_brand img{width: 5em;}
 .nav_principal{display: flex;list-style: none;padding: 0;margin: 0;}
 .nav_principal li{margin-right: 1em;}
 .nav_principal a{text-decoration: none;}
@@ -21,7 +21,7 @@
 }
 /* Cuando se activa, baja y ocupa el lugar */
 .site_nav--clone.is-visible{transform: translateY(0);}
-#site_nav_clone{background-color: rgb(232 232 232 / 90%);box-shadow: 0 12px 25px rgba(0,0,0,0.20);}
+#site_nav_clone{background-color: rgb(232 232 232 / 90%);box-shadow: 0 12px 25px rgba(0,0,0,0.20);width: 100vw;}
 .nav_principal--clone a{color: var(--fuente);}
 
 .floating-box {

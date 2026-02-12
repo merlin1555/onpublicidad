@@ -4,23 +4,27 @@
 .textil .section_container{display: flex;padding: 0;}
 .textil .textil_img img{width: 100%;height: 100%;object-fit: cover;}
 .textil .hero_info{padding-left: 10%;text-align: start;align-items: start;}
-.textil .hero_img{height: 70vh !important;}
 .textil_comienza{background-color: var(--bg-2);}
 .textil_comienza h2{font-size: 200%;color: var(--ink);margin: 0;}
 .textil_list{list-style: none;display: flex;gap: 1.5em;padding: 0;margin: 0;}
-.textil_list li{background-color: var(--paper);border-radius: 5px;width: 25%;padding: 1em;min-height: 30vh;display: flex;flex-direction: column;justify-content: space-between;}
+.textil_list li{background-color: var(--paper);border-radius: 5px;padding: 1em;min-height: 30vh;display: flex;flex-direction: column;justify-content: space-between;}
 .textil_list li h4{margin: 0;}
 .textil_proceso{background: var(--bg);}
 .textil_proceso h2{color: var(--paper);font-size: 200%;font-weight: 400;}
-.textil_proceso_list{list-style: none;padding: 0;margin: 0;background: var(--bg-2);display: flex;flex-wrap: wrap;border-radius: 5px;width: 65%;}
-.textil_proceso_list li{display: flex;align-items: center;width: 50%;}
+.textil_proceso_list{list-style: none;padding: 0;margin: 0;background: var(--bg-2);display: flex;flex-wrap: wrap;border-radius: 5px;}
+.textil_proceso_list li{display: flex;align-items: center;}
 .textil_proceso_list li div{padding: 0.5em 0.5em 0.5em 0;}
 .textil_proceso_list li span{font-size: 250%;font-weight: bolder;padding: 0 0.5em;color: var(--brand);}
 .textil_proceso_list li h4{margin-bottom: 0.2em;font-size: 130%;color: var(--ink);}
 .textil_proceso_list li p{margin-top: 0;color: var(--muted);}
 @media (max-width:959px){
-    
+    .textil_list{flex-direction: column;}
+    .textil .section_container{flex-direction: column;}
+    .textil .hero_img{height: 30vh !important;}
 }
 @media (min-width:960px){
-    
+    .textil_list li{width: 25%;}
+    .textil_proceso_list{width: 65%;}
+    .textil_proceso_list li{width: 50%;}
+    .textil .hero_img{height: 70vh !important;}
 }
