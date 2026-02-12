@@ -37,6 +37,35 @@
 <section class="textil_proceso">
     <div class="section_container">
         <h2>Nuestro Proceso</h2>
-
+        <ul class="textil_proceso_list">
+            <li>
+                <span>1</span>
+                <div>
+                    <h4>Asesoría Inicial</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+            </li>
+            <li>
+                <span>2</span>
+                <div>
+                    <h4>Diseño y Propuesta</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+            </li>
+            <li>
+                <span>3</span>
+                <div>
+                    <h4>Producción</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+            </li>
+            <li>
+                <span>4</span>
+                <div>
+                    <h4>Entrega</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+            </li>
+        </ul>
     </div>
 </section>
