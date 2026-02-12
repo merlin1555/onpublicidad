@@ -39,7 +39,7 @@ footer{margin: 0;padding: 0;}
 .head_info{color: var(--brand);font-weight: bold;text-transform: uppercase;}
 .section_header{text-align: center;}
 .section_header span{color: var(--brand);}
-.section_header h2{color: var(--brand-dark);font-weight: bold;}
+.section_header h2{color: var(--brand-dark);font-weight: bold;margin: 0.6em 0;}
 /* =========================================================
   RESPONSIVE: MÓVILES / TABLET (≤ 959px) */
 @media (max-width:959px){

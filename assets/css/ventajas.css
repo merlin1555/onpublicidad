@@ -3,8 +3,8 @@
 .ventajas{background: var(--bg-2);padding-bottom: 4em;background-image: url("../img/bg/bg-2.png");background-position: center;background-size: cover;color: var(--paper);}
 .ventajas_block{display: flex;}
 .ventajas_info{display: flex;list-style: none;padding: 0;margin: 0;}
-.ventajas_info .ventajas_card h3{margin-bottom: 0.3em;display: flex;align-items: center;color: var(--brand-dark);}
-.ventajas_info .ventajas_card h3 i{color: var(--brand-dark);}
+.ventajas_info .ventajas_card h3{margin-bottom: 0.3em;display: flex;align-items: center;color: var(--paper);}
+.ventajas_info .ventajas_card h3 i{color: var(--brand);}
 .ventajas_info .ventajas_card i{font-size: 180%; color: var(--brand-dark);margin-right: 0.2em;width: 1em;height: 1em;}
 .ventajas_info .ventajas_card p{margin: 0 0 0 3em;font-size: 80%;}
 .ventajas_visor{display: flex;align-items: center;justify-content: center;}
