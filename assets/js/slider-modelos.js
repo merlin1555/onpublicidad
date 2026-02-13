@@ -7,7 +7,7 @@
 
   const models = [
     {
-      glb: 'assets/3d/Trofeo.glb',
+      glb: 'assets/3d/Trofeo2.glb',
       orbit: '25deg 75deg 150%'
     },
     {

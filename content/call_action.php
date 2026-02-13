@@ -9,7 +9,7 @@
             <div class="call_action_visor">
                 <model-viewer
                     id="visor-ventajas"
-                    src="assets/3d/Trofeo.glb"
+                    src="assets/3d/Trofeo2.glb"
                     disable-zoom
                     camera-controls
                     autoplay
