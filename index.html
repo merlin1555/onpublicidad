@@ -254,6 +254,7 @@
     </div>
 </section>
 </main>
+</main>
 <footer class="site-footer">
     <div class="footer_container">
         <div class="footer_responsive">
@@ -320,66 +321,24 @@
 </footer>
 
 <!-- MODAL: TERMINOS Y CONDICIONES -->
-<div id="modal-condiciones" class="modal" aria-hidden="true">
-  <div class="modal__overlay js-close-modal" aria-hidden="true"></div>
-
-  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modal-marcas-title">
-    <button class="modal__close js-close-modal" type="button" aria-label="Cerrar">×</button>
-
-    <div class="terminos_y_condiciones">
-
-    </div>
-  </div>
-</div>
+    <?php include_once("modal-condiciones.php");?>
 
 <!-- MODAL: PREGUNTAS FRECUENTES -->
-<div id="modal-faqs" class="modal" aria-hidden="true">
-  <div class="modal__overlay js-close-modal" aria-hidden="true"></div>
-
-  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modal-marcas-title">
-    <button class="modal__close js-close-modal" type="button" aria-label="Cerrar">×</button>
-
-    <div class="preguntas_frecuentes">
-
-    </div>
-  </div>
-</div>
+    <?php include_once("modal-faqs.php");?>
 
 <!-- MODAL: CONTACTO -->
-<div id="modal-contacto" class="modal" aria-hidden="true">
-  <div class="modal__overlay js-close-modal" aria-hidden="true"></div>
-
-  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modal-marcas-title">
-    <button class="modal__close js-close-modal" type="button" aria-label="Cerrar">×</button>
-
-    <div class="contacto" id="contacto">
-			<div class="section_header">
-				<h2>Contacto</h2>
-			</div>
-			<form action="mailto:contacto@onpublicidad.cl" method="post" enctype="text/plain" class="contacto_form">
-				
-				<label for="nombre">Nombre</label>
-				<input type="text" id="nombre" name="Nombre" required>
-
-				<label for="email">Correo electrónico</label>
-				<input type="email" id="email" name="Email" required>
-
-				<label for="telefono">Teléfono</label>
-				<input type="tel" id="telefono" name="Teléfono">
-
-				<label for="mensaje">Mensaje</label>
-				<textarea id="mensaje" name="Mensaje" rows="5" required></textarea>
-
-				<button class="btn_ btn__primary" type="submit"><span>Enviar</span></button>
-
-			</form>
-	  </div>
-  </div>
-</div>
+    <?php include_once("modal-contacto.php");?>
 
 <script src="assets/js/scripts.js" defer></script>
 <script src="assets/js/merch_info.js" defer></script>
 <script src="assets/js/slider-modelos.js" defer></script>
 <script src="assets/js/site_nav_clone.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-- ScrollReveal (CDN) -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="assets/js/scroll-reveal.js"></script>
 </body>
 </html>
