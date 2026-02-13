@@ -1,3 +1,4 @@
+</main>
 <footer class="site-footer">
     <div class="footer_container">
         <div class="footer_responsive">
@@ -76,5 +77,12 @@
 <script src="assets/js/merch_info.js" defer></script>
 <script src="assets/js/slider-modelos.js" defer></script>
 <script src="assets/js/site_nav_clone.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-- ScrollReveal (CDN) -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="assets/js/scroll-reveal.js"></script>
 </body>
 </html>

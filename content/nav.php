@@ -1,7 +1,7 @@
 <!-- MENÚ 1 (el original fijo arriba) -->
 <div class="site_nav" id="site_nav_main">
   <div class="nav_container">
-    <a class="nav_brand" href="./"><img src="assets/img/logo/ON-LOGO-BLANCO.png" alt=""></a>
+    <a class="nav_brand animate__animated animate__fadeInDown" href="./"><img src="assets/img/logo/ON-LOGO-BLANCO.png" alt=""></a>
     <div class="elemento_movil"><a class="btn_ btn__primary" href="#contacto"><span>Contacto</span></a></div>
     <nav role="navigation" aria-label="Menú principal" id="menu_principal">
       <ul class="nav_principal">
@@ -10,7 +10,7 @@
         <li><a href="#ventajas"><span>Ventajas</span></a></li>
       </ul>
     </nav>
-    <div class="elemento_escritorio"><a class="btn_ btn__primary reveal-up" href="#contacto"><span>Contacto</span></a></div>
+    <div class="elemento_escritorio"><a class="btn_ btn__primary animate__animated animate__fadeInDown" href="#contacto"><span>Contacto</span></a></div>
   </div>
 </div>
 
@@ -26,7 +26,7 @@
         <li><a href="#ventajas"><span>Ventajas</span></a></li>
       </ul>
     </nav>
-    <div class="elemento_escritorio"><a class="btn_ btn__primary reveal-up" href="#contacto"><span>Contacto</span></a></div>
+    <div class="elemento_escritorio"><a class="btn_ btn__primary animate__animated" href="#contacto" data-aos="fade-up"><span>Contacto</span></a></div>
   </div>
 </div>
 

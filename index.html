@@ -32,6 +32,11 @@
     <link rel="stylesheet" href="assets/css/formularios-modal.css">
 
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    
+    <!-- Animate.css (CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- AOS (Animate On Scroll) (CDN) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
 </head>
 <body>
 <header>
@@ -41,7 +46,7 @@
 <!-- MENÚ 1 (el original fijo arriba) -->
 <div class="site_nav" id="site_nav_main">
   <div class="nav_container">
-    <a class="nav_brand" href="./"><img src="assets/img/logo/ON-LOGO-BLANCO.png" alt=""></a>
+    <a class="nav_brand animate__animated animate__fadeInDown" href="./"><img src="assets/img/logo/ON-LOGO-BLANCO.png" alt=""></a>
     <div class="elemento_movil"><a class="btn_ btn__primary" href="#contacto"><span>Contacto</span></a></div>
     <nav role="navigation" aria-label="Menú principal" id="menu_principal">
       <ul class="nav_principal">
@@ -50,7 +55,7 @@
         <li><a href="#ventajas"><span>Ventajas</span></a></li>
       </ul>
     </nav>
-    <div class="elemento_escritorio"><a class="btn_ btn__primary reveal-up" href="#contacto"><span>Contacto</span></a></div>
+    <div class="elemento_escritorio"><a class="btn_ btn__primary animate__animated animate__fadeInDown" href="#contacto"><span>Contacto</span></a></div>
   </div>
 </div>
 
@@ -66,7 +71,7 @@
         <li><a href="#ventajas"><span>Ventajas</span></a></li>
       </ul>
     </nav>
-    <div class="elemento_escritorio"><a class="btn_ btn__primary reveal-up" href="#contacto"><span>Contacto</span></a></div>
+    <div class="elemento_escritorio"><a class="btn_ btn__primary animate__animated" href="#contacto" data-aos="fade-up"><span>Contacto</span></a></div>
   </div>
 </div>
 
@@ -84,56 +89,62 @@
 
     <div class="section_container">
         <div class="hero_info">
-            <h1>Soluciones Integrales en Publicidad y Merchandising</h1>
-            <h3>Desarrollamos proyectos 100% personalizados para potenciar tu marca.</h3>
-            <p>Diseñamos, fabricamos y personalizamos productos corporativos, promocionales y soluciones publicitarias adaptadas a cada empresa, evento o campaña. Integramos creatividad, tecnología y producción para entregar resultados que generan impacto.</p>
-            <a href="#ventajas" class="btn_ btn__primary"><span>Explorar <i class="fa-solid fa-angle-right"></i></span></a>
+            <h1 class="animate__animated animate__fadeIn">Soluciones Integrales en Publicidad y Merchandising</h1>
+            <h3 class="animate__animated animate__fadeIn">Desarrollamos proyectos 100% personalizados para potenciar tu marca.</h3>
+            <p class="animate__animated animate__fadeIn">Diseñamos, fabricamos y personalizamos productos corporativos, promocionales y soluciones publicitarias adaptadas a cada empresa, evento o campaña. Integramos creatividad, tecnología y producción para entregar resultados que generan impacto.</p>
+            <a href="#ventajas" class="btn_ btn__primary animate__animated animate__fadeIn"><span>Explorar <i class="fa-solid fa-angle-right"></i></span></a>
         </div>
         <div class="hero_img">
-            <img src="assets/img/libreria/banner.png" alt="">
+            <img class="animate__animated animate__fadeIn" src="assets/img/libreria/banner.png" alt="">
         </div>
     </div>
 </section>
 <section class="categorias" id="servicios">
     <div class="section_container">
         <div class="categorias_info">
-            <span class="head_info">Conoce nuestros Servicios</span>
-            <h2>Soluciones de <b>Merchandising</b> Corporativo</h2>
-            <p>Ofrecemos soluciones de merchandising completamente personalizables para fortalecer tu <b>marca</b>. Nos encargamos de todo el proceso: asesoría, diseño, prototipo, producción y entrega.</p>
+            <span class="head_info" data-aos="fade-down">Conoce nuestros Servicios</span>
+            <h2 data-aos="fade-down" data-aos-delay="300">Soluciones de <b>Merchandising</b> Corporativo</h2>
+            <p data-aos="fade-down" data-aos-delay="400">Ofrecemos soluciones de merchandising completamente personalizables para fortalecer tu <b>marca</b>. Nos encargamos de todo el proceso: asesoría, diseño, prototipo, producción y entrega.</p>
             <div class="categorias_info_img">
                 <img src="assets/img/libreria/perro.png" alt="Imágen de distintos productos de merchandising">
             </div>
         </div>
         <ul class="servicios_list trigger-section">
-            <li class="fx-scale">
+            <li class="fx-scale" data-aos="flip-left">
                 <img src="assets/img/icon/textil.png" alt="">
                 <h3>Ropa Corporativa</h3>
                 <p>Desarrollamos vestuario corporativo y promocional personalizado para fortalecer la identidad de tu marca. Incluye diseño, producción y distintas técnicas de estampado y bordado.</p>
+                <!--<a href="#textil" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>-->
             </li>
-            <li class="fx-scale">
+            <li class="fx-scale" data-aos="flip-left" data-aos-delay="300">
                 <img src="assets/img/icon/Promocional.png" alt="">
                 <h3>Merchandising Promocional</h3>
                 <p>Creamos productos publicitarios personalizados para campañas, eventos y posicionamiento de marca, con soluciones creativas adaptadas a cada necesidad.</p>
+                <!--<a href="#merch" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>-->
             </li>
-            <li class="fx-scale">
+            <li class="fx-scale" data-aos="flip-left">
                 <img src="assets/img/icon/laser.png" alt="">
                 <h3>Grabado Láser y Corte</h3>
                 <p>Fabricamos piezas personalizadas a medida con tecnología láser de alta precisión para señalética, regalos corporativos, packaging y productos decorativos.</p>
+                <!--<a href="#" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>-->
             </li>
-            <li class="fx-scale">
+            <li class="fx-scale" data-aos="flip-left" data-aos-delay="300">
                 <img src="assets/img/icon/3d.png" alt="">
                 <h3>Merchandising 3D</h3>
                 <p>Diseñamos y producimos artículos promocionales únicos mediante modelado e impresión 3D, ideales para marcas que buscan diferenciarse con innovación con materiales ecológicos.</p>
+                <!--<a href="#" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>-->
             </li>
-            <li class="fx-scale">
+            <li class="fx-scale" data-aos="flip-left">
                 <img src="assets/img/icon/merch.png" alt="">
                 <h3>Galvanos y Reconocimientos</h3>
                 <p>Creamos trofeos, placas y premios personalizados que destacan logros institucionales, deportivos y corporativos con diseño exclusivo y fabricación de alta calidad.</p>
+                <!--<a href="#" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>-->
             </li>
-            <li class="fx-scale">
+            <li data-aos="flip-left" class="fx-scale" data-aos-delay="300">
                 <img src="assets/img/icon/galvanos.png" alt="">
                 <h3>Regalos y Kits Corporativos</h3>
                 <p>Desarrollamos kits y regalos empresariales personalizados que fortalecen la relación con clientes, colaboradores y socios estratégicos.</p>
+                <!--<a href="#" class="btn_ btn__primary"><span>Ver Más <i class="fa-solid fa-angles-right"></i></span></a>-->
             </li>
         </ul>
     </div>
@@ -141,24 +152,24 @@
 <section class="about" id="about">
     <div class="section_container">
         <div class="section_header">
-        <span class="head_info">Conoce a ON! Publicidad y Marketing</span>
-        <h2>ON! simplifica la forma de crear merchandising corporativo</h2>
-        <p class="muted">En ON! desarrollamos soluciones personalizadas de publicidad y fabricación corporativa para empresas, instituciones y eventos. Integramos diseño, tecnología y producción para crear productos que fortalecen la identidad de marca y generan experiencias memorables.</p>
+        <span class="head_info" data-aos="fade-down">Conoce a ON! Publicidad y Marketing</span>
+        <h2 data-aos="fade-down" data-aos-delay="300">ON! simplifica la forma de crear merchandising corporativo</h2>
+        <p class="muted" data-aos="fade-down" data-aos-delay="400">En ON! desarrollamos soluciones personalizadas de publicidad y fabricación corporativa para empresas, instituciones y eventos. Integramos diseño, tecnología y producción para crear productos que fortalecen la identidad de marca y generan experiencias memorables.</p>
         </div>
         <ul class="about_list">
-            <li>
+            <li data-aos="fade-down" data-aos-delay="500">
                 <span class="about_list_icon"><i class="fa-solid fa-gem"></i></span>
                 
                 <h3>Diseño de Calidad</h3>
                 <p>Cada proyecto se desarrolla considerando identidad visual, funcionalidad y coherencia con la marca. Nos enfocamos en crear productos que representen profesionalmente a cada cliente.</p>
             </li>
-            <li>
+            <li data-aos="fade-down" data-aos-delay="600">
                 <span class="about_list_icon"><i class="fa-solid fa-cube"></i></span>
                 
                 <h3>Innovación y Sustentabilidad</h3>
                 <p>Incorporamos nuevas tecnologías de fabricación, visualización digital y selección responsable de materiales para ofrecer soluciones modernas, eficientes y con impacto positivo.</p>
             </li>
-            <li>
+            <li data-aos="fade-down" data-aos-delay="700">
                 <span class="about_list_icon"><i class="fa-solid fa-shield-halved"></i></span>
                 
                 <h3>Confianza y Seguridad</h3>
@@ -170,17 +181,17 @@
 <section class="ventajas" id="ventajas">
     <div class="section_container">
         <div class="section_header">
-            <span class="head_info">ventajas</span>
-            <h2>Soluciones diseñadas para destacar y generar valor para tu marca</h2>
-            <p>Nuestros productos combinan creatividad, fabricación especializada y personalización total. Trabajamos con empresas de distintos sectores adaptando cada solución a sus objetivos, presupuesto y necesidades específicas.</p>
+            <span class="head_info" data-aos="fade-down">ventajas</span>
+            <h2 data-aos="fade-down">Soluciones diseñadas para destacar y generar valor para tu marca</h2>
+            <p data-aos="fade-down">Nuestros productos combinan creatividad, fabricación especializada y personalización total. Trabajamos con empresas de distintos sectores adaptando cada solución a sus objetivos, presupuesto y necesidades específicas.</p>
         </div>
         <div class="ventajas_block">
             <ul class="ventajas_info ventajas_info-1">
-                <li class="ventajas_card">
+                <li class="ventajas_card" data-aos="fade-down">
                     <h3><i class="fa-solid fa-bell"></i> Personalización Total</h3>
                     <p>Cada producto puede adaptarse en diseño, materiales, técnicas de marcaje y presentación, permitiendo crear soluciones únicas para cada cliente.</p>
                 </li>
-                <li class="ventajas_card">
+                <li class="ventajas_card" data-aos="fade-down" data-aos-delay="200">
                     <h3><i class="fa-solid fa-puzzle-piece"></i> Producción Integral</h3>
                     <p>Centralizamos diseño, desarrollo y fabricación, facilitando la coordinación de proyectos y garantizando coherencia en cada detalle.</p>
                 </li>
@@ -190,9 +201,7 @@
 
             <model-viewer
             id="visor-ventajas"
-            src="assets/3d/togepi_smash_bros_ultimate.glb"
-            ios-src="assets/3d/togepi_smash_bros_ultimate.usdz"
-            disable-zoom
+            src="assets/3d/Trofeo.glb"
             camera-controls
             autoplay
             animation-loop
@@ -203,11 +212,11 @@
             <button class="visor_btn visor_next" type="button" aria-label="Siguiente modelo"><i class="fa-solid fa-angle-right"></i></button>
             </div>
             <ul class="ventajas_info ventajas_info-2">
-                <li class="ventajas_card">
+                <li class="ventajas_card" data-aos="fade-down" data-aos-delay="300">
                     <h3><i class="fa-solid fa-comment"></i> Asesoría Estratégica</h3>
                     <p>Apoyamos a nuestros clientes en la selección de productos, técnicas y soluciones que mejor representen su marca y objetivos comunicacionales.</p>
                 </li>
-                <li class="ventajas_card">
+                <li class="ventajas_card" data-aos="fade-down" data-aos-delay="400">
                     <h3><i class="fa-solid fa-lock"></i> Control de Calidad</h3>
                     <p>Supervisamos cada etapa del proceso productivo para asegurar terminaciones profesionales y resultados consistentes.</p>
                 </li>
@@ -217,7 +226,7 @@
 </section>
 <section class="call_action" id="contacto">
     <div class="section_container">
-        <div class="call_action_card">
+        <div class="call_action_card" data-aos="fade-down">
             <div class="call_action_info">
                 <h2>¿Tienes un Pedido Especial?</h2>
                 <p>¡Contáctanos, cuéntanos tu proyecto y hagámoslo realidad!</p>
@@ -226,8 +235,7 @@
             <div class="call_action_visor">
                 <model-viewer
                     id="visor-ventajas"
-                    src="assets/3d/peach_ssbb.glb"
-                    ios-src="assets/3d/peach_ssbb.usdz"
+                    src="assets/3d/Trofeo.glb"
                     disable-zoom
                     camera-controls
                     autoplay

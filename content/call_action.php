@@ -1,6 +1,6 @@
 <section class="call_action" id="contacto">
     <div class="section_container">
-        <div class="call_action_card">
+        <div class="call_action_card" data-aos="fade-down">
             <div class="call_action_info">
                 <h2>¿Tienes un Pedido Especial?</h2>
                 <p>¡Contáctanos, cuéntanos tu proyecto y hagámoslo realidad!</p>
@@ -9,8 +9,7 @@
             <div class="call_action_visor">
                 <model-viewer
                     id="visor-ventajas"
-                    src="assets/3d/peach_ssbb.glb"
-                    ios-src="assets/3d/peach_ssbb.usdz"
+                    src="assets/3d/Trofeo.glb"
                     disable-zoom
                     camera-controls
                     autoplay

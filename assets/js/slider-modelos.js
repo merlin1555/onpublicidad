@@ -7,19 +7,12 @@
 
   const models = [
     {
-      glb: 'assets/3d/togepi_smash_bros_ultimate.glb',
-      usdz: 'assets/3d/togepi_smash_bros_ultimate.usdz',
+      glb: 'assets/3d/Trofeo.glb',
       orbit: '25deg 75deg 150%'
     },
     {
-      glb: 'assets/3d/peach_ssbb.glb',
-      usdz: 'assets/3d/peach_ssbb.usdz',
+      glb: 'assets/3d/Camion.glb',
       orbit: '25deg 75deg 150%'
-    },
-    {
-      glb: 'assets/3d/book_of_Constellations.glb',
-      usdz: 'assets/3d/book_of_Constellations.usdz',
-      orbit: '110deg 35deg 100%'
     },
   ];
 
