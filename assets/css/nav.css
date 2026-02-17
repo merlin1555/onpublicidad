@@ -26,30 +26,24 @@
 
 .floating-box {
   position: fixed;
-  top: 0; /* se sobrescribe con JS */
+  top: 0;
   left: 0;
   width: 100%;
-
   transform: translateY(-100%);
   opacity: 0;
-
   transition: transform 0.4s ease, opacity 0.3s ease;
-  z-index: 9998; /* justo debajo del clone */
+  z-index: 9998;
   background-color: var(--coal);
 }
-
 .floating-box.active {
   transform: translateY(0);
   opacity: 1;
 }
-
 .floating-box_nav{list-style: none;display: flex;gap: 2em;justify-content: center;align-items: center;flex-wrap: wrap;padding: 0 0.5em;}
 .floating-box_nav a{text-decoration: none;color: var(--paper);}
 .floating-box_nav a.active {
-  /* mismo estilo que hover */
   color: var(--brand);
 }
-
 /* =========================================================
   RESPONSIVE: MÓVILES / TABLET (≤ 959px) */
 @media (max-width:959px){

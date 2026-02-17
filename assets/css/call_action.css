@@ -19,7 +19,7 @@
 @media (min-width:960px){
     .call_action_info{width: 60%;}
     .call_action_visor{width: 40%;}
-    .call_action_visor{margin-bottom: -3em;}
+    .call_action_visor{margin-bottom: -5em;}
     .call_action .section_container{padding: 5em 20% 4em;}
     .call_action_info p{margin-bottom: 2em;}
 }

@@ -20,7 +20,7 @@
                     min-camera-orbit="-Infinity 80deg auto"
                     max-camera-orbit="Infinity 80deg auto"
 
-                    style="width:100%;height:40vh">
+                    style="width:100%;height:50vh">
                     <button slot="ar-button" aria-hidden="true" style="display:none"></button>
                 </model-viewer>
             </div>

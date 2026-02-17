@@ -15,15 +15,16 @@
   RESPONSIVE: MÓVILES / TABLET (≤ 959px) */
 @media (max-width:959px){
   .ventajas_block{flex-direction: column;}
-  .ventajas_info{gap: 2em;}
+  .ventajas_info{gap: 2em;flex-direction: column;}
 }
 
 /* =========================================================
   RESPONSIVE: ESCRITORIO (≥ 960px) */
 @media (min-width:960px){
   .ventajas_block{justify-content: space-around;}
-  .ventajas_visor{width: 60%;}
-  .ventajas_info{flex-direction: column;justify-content: center;gap: 1em;}
+  .ventajas_visor{width: 40%;}
+  .ventajas_info{width: 30%;flex-direction: column;justify-content: center;gap: 1em;}
   .ventajas_info-1{padding-right: 1em;}
   .ventajas_info-2{padding-left: 1em;}
+  .ventajas .section_container{padding: 4em 7% 2em;}
 }

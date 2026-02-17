@@ -25,7 +25,7 @@
             camera-controls
             autoplay
             animation-loop
-            style="width:100%;height:40vh">
+            style="width:100%;height:60vh">
             <button slot="ar-button" aria-hidden="true" style="display:none"></button>
             </model-viewer>
 
